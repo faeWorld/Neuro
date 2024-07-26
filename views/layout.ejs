@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/styles.css">
+  <title><%= title %></title>
+</head>
+<body>
+  <header>
+    <h1>Psychology Test</h1>
+  </header>
+  <nav>
+    <a href="/">Home</a>
+    <div class="dropdown">
+      <a href="#">Categories</a>
+      <div class="dropdown-content">
+        <a href="/personality-test">Personality Test</a>
+        <a href="/character-test">Character Test</a>
+        <a href="/diagnostic-test">Diagnostic Test</a>
+        <a href="/knowledge-test">Knowledge Test</a>
+      </div>
+    </div>
+    <a href="/about">About Us</a>
+  </nav>
+  <div class="container">
+    <%- body %>
+  </div>
+  <footer>
+    &copy; 2024 Psychology Test
+  </footer>
+  <script src="/script.js"></script>
+</body>
+</html>

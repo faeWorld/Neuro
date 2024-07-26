@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Psychology Test</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <form action="/submit-test" method="post">
+    <input type="hidden" name="token" value="<%= token %>">
+    <textarea name="answers" placeholder="Enter your test answers here" required></textarea>
+    <button type="submit">Submit Test</button>
+  </form>
+</body>
+</html>
