@@ -1,0 +1,116 @@
+
+.about-bubble h2 {
+  font-family: 'Minecraftia', sans-serif; 
+  color: #ffffff;
+  align-items: center;
+  margin: 0;
+  text-align: center;
+  font-size: 50px;
+}
+
+.about {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: none;
+    text-align: center;
+  }
+  
+  .about h1 {
+   
+    color: #ffffff;
+    
+    margin-bottom: 20px; /* Space between the heading and the container */
+    font-family: 'Press Start 2P', cursive;
+    font-size: 35px;
+  
+  }
+
+  .about-container {
+    display: flex;
+    align-items: center;
+    height: 60vh; /* Full viewport height */
+    width: 100vh;
+    padding: 20px;
+    background: #f28f8f4d; /* Light background color for the entire container */
+    border-radius: 40px;
+
+  }
+  
+  .about-bubble {
+    background-color: #911cff; /* Background color for the bubble */
+    border: 2px solid #6800ca; /* Darker border color for better contrast */
+    border-radius: 15px; /* More rounded edges for a bubbly effect */
+    padding: 30px; /* Increased padding for better content spacing */
+    max-width: 800px; /* Maximum width for readability */
+    width: 100%; /* Full width up to the max-width */
+    height: 290px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Enhanced shadow for a deeper 3D effect */
+    
+    text-align: center; /* Center text inside the bubble */
+    position: relative; /* Position relative for potential use of pseudo-elements */
+    overflow: hidden; /* Hide any overflow content */
+  }
+  
+
+  
+  .about-bubble p {
+    margin: 0;
+    line-height: 1.6; /* Improve readability */
+    font-size: 20px; /* Font size */
+    color: #ffffff; /* Text color */
+    font-family: 'Press Start 2P', cursive;
+    
+  }
+  .about-bubble h4 {
+    margin: 0;
+    line-height: 1.6; /* Improve readability */
+    font-size: 16px; /* Font size */
+    color: #ffffff; /* Text color */
+  }
+
+/* Background animation */
+@keyframes backgroundMotion {
+  0% { background-position: 0 0; }
+  100% { background-position: 100% 100%; }
+}
+.about::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, #942ff8, #a055d9, #ff920e, #f7337e, #ff920e, #a055d9,#942ff8);
+  background-size: 400% 400%;
+  animation: backgroundMotion 15s ease infinite;
+  z-index: -1; /* Place it behind the content */
+}
+
+
+
+
+/*---------------------------------------------------------------------------------------------------*/
+@keyframes movePeela {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.peela-container {
+  position: fixed;
+  top: 50%;
+  width: 100%;
+  height: 100px;
+  overflow: hidden;
+}
+
+.peela {
+  position: absolute;
+  width: 100px; /* Adjust size as needed */
+  height: auto;
+  animation: movePeela 10s linear infinite;
+}

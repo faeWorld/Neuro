@@ -1,0 +1,197 @@
+/* src/pages/character.css */
+
+.character {
+    text-align: center;
+    background-color: none; /* Remove if no background is needed */
+}
+.container {
+    align-items: center;
+    border: 2px solid #4d1582; /* Border color */
+    border-radius: 30px; /* Rounded edges */
+    padding: 20px; /* Space inside the container */
+    margin: auto; /* Centered container */
+    max-width: 800px; /* Max width of the container */
+    background-color: #9b30ff; /* Background color for the container */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); /* Shadow effect */
+    position: relative; /* For positioning the animation */
+    color:#f7337e;
+    position:center;
+    top: 150px;
+    bottom: 100px;
+  }
+
+.container form button {
+    background-color: #911cff;
+    color: white;
+    border: 2px solid #4d1582;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.character button :hover {
+    background-color: #4d1582;
+}
+/*-----------------------------------------------------------------------------*/
+.question {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    font-family: sans-serif;
+    color: #ffffff;
+    font-size: 18px;
+    transition: opacity 1s ease-in-out;
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+
+}
+.question.visible {
+    opacity: 1;
+}
+.question.hidden {
+    opacity: 0;
+}
+
+/* Form styling */
+.character-test-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.character-test-container h1 {
+    font-size: 2.5em;
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 20px; /* Added margin for spacing */
+    padding: 120px;
+}
+
+
+/* Background animation for the result container */
+@keyframes backgroundMotion {
+    0% { background-position: 0 0; }
+    100% { background-position: 100% 100%; }
+}
+
+.character-result::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, #942ff8, #a055d9, #ff920e, #f7337e, #ff920e, #a055d9, #942ff8);
+    background-size: 400% 400%;
+    animation: backgroundMotion 15s ease infinite;
+    z-index: -1; /* Place it behind the content */
+}
+
+
+
+
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.hidden {
+    display: none;
+}
+@keyframes gradientMotion {
+    0% { background-position: 0 0; }
+    100% { background-position: 100% 100%; }
+}
+
+
+
+/* Form styling */
+.character-test-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.character-test-container {
+    text-align: center;
+    margin: 20px;
+    border-color: #4d1582;
+    border-radius: 25px;
+    content: '';
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, #942ff8, #a055d9, #ff920e, #f7337e, #ff920e, #a055d9,#942ff8);
+    background-size: 400% 400%;
+    animation: backgroundMotion 15s ease infinite;
+    z-index: -1; /* Place it behind the content */
+}
+
+.character-test-container label{
+    font-family: sans-serif;
+    color: #ffffff;
+    font-size: 14px;
+    container: round;
+
+}
+
+.character-test-container input {
+    padding: 10px;
+    font-size: 1em;
+    border: 2px solid #4d1582;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    width: 100%;
+    max-width: 400px;
+}
+
+
+
+/*---------------------------------------------------------------------*/
+.character-result {
+    animation: fadeIn 1s ease-in-out;
+    background-color: none;
+    color: #000000;
+    border: 2px solid #ffffff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    text-align: center; /* Center the text */
+    position: relative;
+}
+.character-result::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, #942ff8, #a055d9, #ff920e, #f7337e, #ff920e, #a055d9, #942ff8);
+    background-size: 400% 400%;
+    animation: gradientMotion 15s ease infinite;
+    z-index: -1; /* Place it behind the content */
+}
+
+
+.character-result h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-family: sans-serif;
+}
+
+.character-result p {
+    margin: 5px 0;
+    font-size: 18px;
+    font-family: sans-serif;
+}

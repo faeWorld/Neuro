@@ -1,0 +1,47 @@
+/* src/components/animatedspaceship.css */
+
+.spaceship-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  pointer-events: none; /* Ensure no interference with other UI elements */
+}
+
+.spaceship-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none; /* Ensure no interference with other UI elements */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.spaceship {
+  width: 150px; /* Increased size */
+  height: auto;
+  position: relative;
+  
+}
+
+.dotted-trail {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background: #fff;
+  border-radius: 50%;
+  opacity: 1;
+  animation: fadeOut 3s forwards;
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}

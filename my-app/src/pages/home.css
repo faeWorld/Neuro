@@ -1,0 +1,74 @@
+/* Container styles */
+.container {
+  align-items: center;
+  border: 2px solid #4d1582; /* Border color */
+  border-radius: 30px; /* Rounded edges */
+  padding: 20px; /* Space inside the container */
+  margin: 20px auto; /* Centered container */
+  max-width: 800px; /* Max width of the container */
+  background-color: #9b30ff; /* Background color for the container */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); /* Shadow effect */
+  position: relative; /* For positioning the animation */
+  color:#f7337e;
+  position:center;
+  top: 150px;
+  bottom: 100px;
+}
+
+/* Home styles */
+.home {
+
+  text-align: center;
+  background-color:none;
+  /*position: absolute; /* Ensure the ::before pseudo-element can be used */
+  /*min-height: 100vh; /* Ensure .home takes up at least the full viewport height */
+}
+
+/* Heading styles */
+.home h1 {
+  font-size: 2.5em;
+  color: #ffffff;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Paragraph styles */
+.home p {
+  font-size: 1.2em;
+  color: #ffffff;
+  margin: 20px 0;
+  font-family: sans-serif;
+}
+
+/* Button styles */
+.home button {
+  background-color: #911cff;
+  color: white;
+  border: 2px solid #4d1582;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.home button:hover {
+  background-color: #4d1582;
+}
+
+/* Background animation */
+@keyframes backgroundMotion {
+  0% { background-position: 0 0; }
+  100% { background-position: 100% 100%; }
+}
+
+.home::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, #942ff8, #a055d9, #ff920e, #f7337e, #ff920e, #a055d9,#942ff8);
+  background-size: 400% 400%;
+  animation: backgroundMotion 15s ease infinite;
+  z-index: -1; /* Place it behind the content */
+}
