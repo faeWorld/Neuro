@@ -1,0 +1,634 @@
+[
+    {
+        "Id": "1",
+        "category": "geography",
+        "question": "What is the capital of Canada?",
+        "options": ["Toronto", "Vancouver", "Ottawa", "Montreal"],
+        "correct_answer": "Ottawa"
+    },
+    {
+        "Id": "2",
+        "category": "geography",
+        "question": "Which continent is the Sahara Desert located in?",
+        "options": ["Asia", "Africa", "North America", "South America"],
+        "correct_answer": "Africa"
+    },
+    {
+        "Id": "3",
+        "category": "geography",
+        "question": "What is the longest river in the world?",
+        "options": ["Amazon", "Nile", "Yangtze", "Mississippi"],
+        "correct_answer": "Nile"
+    },
+    {
+        "Id": "4",
+        "category": "geography",
+        "question": "Which mountain range separates Europe and Asia?",
+        "options": ["Andes", "Rockies", "Himalayas", "Ural"],
+        "correct_answer": "Ural"
+    },
+    {
+        "Id": "5",
+        "category": "geography",
+        "question": "Which ocean is the largest by surface area?",
+        "options": ["Atlantic Ocean", "Indian Ocean", "Arctic Ocean", "Pacific Ocean"],
+        "correct_answer": "Pacific Ocean"
+    },
+    {
+        "Id": "6",
+        "category": "geography",
+        "question": "Which city is known as the 'City of Light'?",
+        "options": ["Paris", "New York", "Tokyo", "London"],
+        "correct_answer": "Paris"
+    },
+    {
+        "Id": "7",
+        "category": "geography",
+        "question": "What is the capital city of Australia?",
+        "options": ["Sydney", "Melbourne", "Brisbane", "Canberra"],
+        "correct_answer": "Canberra"
+    },
+    {
+        "Id": "8",
+        "category": "geography",
+        "question": "Which continent is the Amazon Rainforest located in?",
+        "options": ["Asia", "Africa", "South America", "Australia"],
+        "correct_answer": "South America"
+    },
+    {
+        "Id": "9",
+        "category": "geography",
+        "question": "Mount Everest is part of which mountain range?",
+        "options": ["Andes", "Alps", "Himalayas", "Rockies"],
+        "correct_answer": "Himalayas"
+    },
+    {
+        "Id": "10",
+        "category": "geography",
+        "question": "Which country has the most islands in the world?",
+        "options": ["Canada", "Sweden", "Indonesia", "Australia"],
+        "correct_answer": "Sweden"
+    },
+    {
+        "Id": "11",
+        "category": "geography",
+        "question": "What is the capital of Brazil?",
+        "options": ["Sao Paulo", "Brasilia", "Rio de Janeiro", "Salvador"],
+        "correct_answer": "Brasilia"
+    },
+    {
+        "Id": "12",
+        "category": "geography",
+        "question": "Which is the smallest continent by land area?",
+        "options": ["Europe", "Australia", "Africa", "South America"],
+        "correct_answer": "Australia"
+    },
+    {
+        "Id": "13",
+        "category": "geography",
+        "question": "What river flows through Egypt and is considered the longest in the world?",
+        "options": ["Tigris", "Euphrates", "Nile", "Amazon"],
+        "correct_answer": "Nile"
+    },
+    {
+        "Id": "14",
+        "category": "geography",
+        "question": "Which city is known as the 'Eternal City'?",
+        "options": ["Rome", "Athens", "Cairo", "Jerusalem"],
+        "correct_answer": "Rome"
+    },
+    {
+        "Id": "15",
+        "category": "geography",
+        "question": "Which country is home to the Great Barrier Reef?",
+        "options": ["Australia", "Philippines", "Thailand", "Indonesia"],
+        "correct_answer": "Australia"
+    },
+    {
+        "Id": "16",
+        "category": "geography",
+        "question": "Which is the highest waterfall in the world?",
+        "options": ["Niagara Falls", "Angel Falls", "Iguazu Falls", "Victoria Falls"],
+        "correct_answer": "Angel Falls"
+    },
+    {
+        "Id": "17",
+        "category": "geography",
+        "question": "Which desert is the largest hot desert in the world?",
+        "options": ["Gobi Desert", "Sahara Desert", "Kalahari Desert", "Great Victoria Desert"],
+        "correct_answer": "Sahara Desert"
+    },
+    {
+        "Id": "18",
+        "category": "geography",
+        "question": "Which country has the longest coastline in the world?",
+        "options": ["United States", "Canada", "Australia", "Russia"],
+        "correct_answer": "Canada"
+    },
+    {
+        "Id": "19",
+        "category": "geography",
+        "question": "Which sea is bordered by Europe, Africa, and Asia?",
+        "options": ["Mediterranean Sea", "Red Sea", "Black Sea", "Caspian Sea"],
+        "correct_answer": "Mediterranean Sea"
+    },
+    {
+        "Id": "20",
+        "category": "geography",
+        "question": "Which country is known as the Land of the Rising Sun?",
+        "options": ["China", "Japan", "South Korea", "Thailand"],
+        "correct_answer": "Japan"
+    },
+    
+        {
+            "Id": "21",
+            "category": "geography",
+            "question": "Which river flows through Paris?",
+            "options": ["Seine", "Rhine", "Danube", "Loire"],
+            "correct_answer": "Seine"
+        },
+        {
+            "Id": "22",
+            "category": "geography",
+            "question": "What is the largest island in the world?",
+            "options": ["New Guinea", "Greenland", "Borneo", "Madagascar"],
+            "correct_answer": "Greenland"
+        },
+        {
+            "Id": "23",
+            "category": "geography",
+            "question": "Which country is landlocked between Austria and Italy?",
+            "options": ["Switzerland", "Liechtenstein", "Slovenia", "San Marino"],
+            "correct_answer": "Liechtenstein"
+        },
+        {
+            "Id": "24",
+            "category": "geography",
+            "question": "Which country has the most volcanoes?",
+            "options": ["Indonesia", "Japan", "Iceland", "United States"],
+            "correct_answer": "Indonesia"
+        },
+        {
+            "Id": "25",
+            "category": "geography",
+            "question": "What is the deepest ocean in the world?",
+            "options": ["Atlantic Ocean", "Indian Ocean", "Arctic Ocean", "Pacific Ocean"],
+            "correct_answer": "Pacific Ocean"
+        },
+        {
+            "Id": "26",
+            "category": "geography",
+            "question": "Which city is known as the 'Windy City'?",
+            "options": ["Chicago", "New York", "Los Angeles", "San Francisco"],
+            "correct_answer": "Chicago"
+        },
+        {
+            "Id": "27",
+            "category": "geography",
+            "question": "Which desert is located in northern Chile and is considered one of the driest places on Earth?",
+            "options": ["Kalahari Desert", "Sahara Desert", "Gobi Desert", "Atacama Desert"],
+            "correct_answer": "Atacama Desert"
+        },
+        {
+            "Id": "28",
+            "category": "geography",
+            "question": "Which island nation is located in the Indian Ocean, south of India?",
+            "options": ["Maldives", "Sri Lanka", "Madagascar", "Mauritius"],
+            "correct_answer": "Sri Lanka"
+        },
+        {
+            "Id": "29",
+            "category": "geography",
+            "question": "What is the capital city of Norway?",
+            "options": ["Oslo", "Stockholm", "Helsinki", "Copenhagen"],
+            "correct_answer": "Oslo"
+        },
+        {
+            "Id": "30",
+            "category": "geography",
+            "question": "Which river is the longest in South America?",
+            "options": ["Amazon", "Orinoco", "Parana", "Mississippi"],
+            "correct_answer": "Amazon"
+        },
+        {
+            "Id": "31",
+            "category": "geography",
+            "question": "Which country is known for having the fjords along its western coast?",
+            "options": ["Norway", "Sweden", "Finland", "Denmark"],
+            "correct_answer": "Norway"
+        },
+        {
+            "Id": "32",
+            "category": "geography",
+            "question": "Which U.S. state is known as the 'Sunshine State'?",
+            "options": ["California", "Texas", "Florida", "Hawaii"],
+            "correct_answer": "Florida"
+        },
+        {
+            "Id": "33",
+            "category": "geography",
+            "question": "Which large island is located southeast of Australia and is known for its unique wildlife?",
+            "options": ["Tasmania", "New Guinea", "Sumatra", "Borneo"],
+            "correct_answer": "Tasmania"
+        },
+        {
+            "Id": "34",
+            "category": "geography",
+            "question": "Which country is known as the 'Land of Fire and Ice'?",
+            "options": ["Iceland", "New Zealand", "Canada", "Russia"],
+            "correct_answer": "Iceland"
+        },
+        {
+            "Id": "35",
+            "category": "geography",
+            "question": "Which country is home to the city of Istanbul?",
+            "options": ["Turkey", "Greece", "Egypt", "Lebanon"],
+            "correct_answer": "Turkey"
+        },
+        {
+            "Id": "36",
+            "category": "geography",
+            "question": "What is the highest peak in North America?",
+            "options": ["Denali", "Mount Logan", "Pico de Orizaba", "Mount Hood"],
+            "correct_answer": "Denali"
+        },
+        {
+            "Id": "37",
+            "category": "geography",
+            "question": "Which city is known as the 'Venice of the North'?",
+            "options": ["Amsterdam", "Stockholm", "Copenhagen", "Oslo"],
+            "correct_answer": "Amsterdam"
+        },
+        {
+            "Id": "38",
+            "category": "geography",
+            "question": "Which African country is known for its pyramids and ancient pharaohs?",
+            "options": ["Egypt", "Morocco", "Nigeria", "Ethiopia"],
+            "correct_answer": "Egypt"
+        },
+        {
+            "Id": "39",
+            "category": "geography",
+            "question": "Which river forms the border between the United States and Mexico?",
+            "options": ["Colorado River", "Rio Grande", "Missouri River", "Hudson River"],
+            "correct_answer": "Rio Grande"
+        },
+        {
+            "Id": "40",
+            "category": "geography",
+            "question": "Which mountain range is located in South America and is known for its highest peak, Aconcagua?",
+            "options": ["Andes", "Rockies", "Alps", "Himalayas"],
+            "correct_answer": "Andes"
+        },
+        {
+            "Id": "41",
+            "category": "geography",
+            "question": "Which country is home to the city of Cairo?",
+            "options": ["Egypt", "Jordan", "Lebanon", "Saudi Arabia"],
+            "correct_answer": "Egypt"
+        },
+        {
+            "Id": "42",
+            "category": "geography",
+            "question": "Which country is known as the 'Land of the Midnight Sun'?",
+            "options": ["Norway", "Sweden", "Finland", "Denmark"],
+            "correct_answer": "Norway"
+        },
+        {
+            "Id": "43",
+            "category": "geography",
+            "question": "Which city is famous for its Great Wall?",
+            "options": ["Beijing", "Seoul", "Tokyo", "Hong Kong"],
+            "correct_answer": "Beijing"
+        },
+        {
+            "Id": "44",
+            "category": "geography",
+            "question": "Which desert covers much of southern California and northern Mexico?",
+            "options": ["Mojave Desert", "Sonoran Desert", "Chihuahuan Desert", "Great Basin Desert"],
+            "correct_answer": "Sonoran Desert"
+        },
+        {
+            "Id": "45",
+            "category": "geography",
+            "question": "Which major river flows through Rome?",
+            "options": ["Tiber", "Danube", "Rhine", "Po"],
+            "correct_answer": "Tiber"
+        },
+        {
+            "Id": "46",
+            "category": "geography",
+            "question": "Which U.S. state is known as the 'Aloha State'?",
+            "options": ["Hawaii", "California", "Florida", "Alaska"],
+            "correct_answer": "Hawaii"
+        },
+        {
+            "Id": "47",
+            "category": "geography",
+            "question": "Which country is known for the fjords on its west coast and the northern lights?",
+            "options": ["Norway", "Sweden", "Finland", "Iceland"],
+            "correct_answer": "Norway"
+        },
+        {
+            "Id": "48",
+            "category": "geography",
+            "question": "Which country is known for the island of Santorini?",
+            "options": ["Greece", "Italy", "Spain", "Turkey"],
+            "correct_answer": "Greece"
+        },
+        {
+            "Id": "49",
+            "category": "geography",
+            "question": "What is the smallest country in the world by land area?",
+            "options": ["Monaco", "San Marino", "Liechtenstein", "Vatican City"],
+            "correct_answer": "Vatican City"
+        },
+        {
+            "Id": "50",
+            "category": "geography",
+            "question": "Which country is known as the 'Emerald Isle'?",
+            "options": ["Ireland", "Scotland", "Wales", "New Zealand"],
+            "correct_answer": "Ireland"
+        },
+        {
+            "Id": "51",
+            "category": "geography",
+            "question": "Which river is the longest in Europe?",
+            "options": ["Volga", "Danube", "Rhine", "Elbe"],
+            "correct_answer": "Volga"
+        },
+        {
+            "Id": "52",
+            "category": "geography",
+            "question": "Which city is famous for its opera house and harbour bridge?",
+            "options": ["Sydney", "Melbourne", "Brisbane", "Adelaide"],
+            "correct_answer": "Sydney"
+        },
+        {
+            "Id": "53",
+            "category": "geography",
+            "question": "What is the largest city in South America by population?",
+            "options": ["Sao Paulo", "Buenos Aires", "Rio de Janeiro", "Lima"],
+            "correct_answer": "Sao Paulo"
+        },
+        {
+            "Id": "54",
+            "category": "geography",
+            "question": "Which country is known for the ancient city of Petra?",
+            "options": ["Jordan", "Israel", "Egypt", "Lebanon"],
+            "correct_answer": "Jordan"
+        },
+        {
+            "Id": "55",
+            "category": "geography",
+            "question": "Which large desert spans across northern Africa?",
+            "options": ["Sahara Desert", "Kalahari Desert", "Gobi Desert", "Namib Desert"],
+            "correct_answer": "Sahara Desert"
+        },
+        {
+            "Id": "56",
+            "category": "geography",
+            "question": "Which major river flows through London?",
+            "options": ["Thames", "Seine", "Rhine", "Danube"],
+            "correct_answer": "Thames"
+        },
+        {
+            "Id": "57",
+            "category": "geography",
+            "question": "Which country is located on the island of Iceland?",
+            "options": ["Iceland", "Greenland", "Norway", "Denmark"],
+            "correct_answer": "Iceland"
+        },
+        {
+            "Id": "58",
+            "category": "geography",
+            "question": "What is the capital city of Argentina?",
+            "options": ["Buenos Aires", "Santiago", "Montevideo", "Asuncion"],
+            "correct_answer": "Buenos Aires"
+        },
+        {
+            "Id": "59",
+            "category": "geography",
+            "question": "Which river is the longest in Asia?",
+            "options": ["Yangtze", "Mekong", "Ganges", "Lena"],
+            "correct_answer": "Yangtze"
+        },
+        {
+            "Id": "60",
+            "category": "geography",
+            "question": "Which U.S. state is known as the 'Grand Canyon State'?",
+            "options": ["Nevada", "Utah", "Arizona", "Colorado"],
+            "correct_answer": "Arizona"
+        },
+
+        {
+            "Id": "61",
+            "category": "geography",
+            "question": "Which mountain range contains the world's highest peak, Mount Everest?",
+            "options": ["Himalayas", "Andes", "Alps", "Rockies"],
+            "correct_answer": "Himalayas"
+        },
+        {
+            "Id": "62",
+            "category": "geography",
+            "question": "In which country is the K2, the second highest peak in the world, located?",
+            "options": ["Pakistan", "Nepal", "India", "China"],
+            "correct_answer": "Pakistan"
+        },
+        {
+            "Id": "63",
+            "category": "geography",
+            "question": "Which river originates from the Tibetan Plateau and flows through India, Bangladesh, and the Bay of Bengal?",
+            "options": ["Ganges", "Indus", "Yangtze", "Mekong"],
+            "correct_answer": "Ganges"
+        },
+        {
+            "Id": "64",
+            "category": "geography",
+            "question": "Which mountain range separates the Indian subcontinent from the rest of Asia?",
+            "options": ["Himalayas", "Ural Mountains", "Alps", "Appalachians"],
+            "correct_answer": "Himalayas"
+        },
+        {
+            "Id": "65",
+            "category": "geography",
+            "question": "Which peak is known as the 'Savage Mountain' due to its extreme difficulty in climbing?",
+            "options": ["K2", "Everest", "Kanchenjunga", "Makalu"],
+            "correct_answer": "K2"
+        },
+        {
+            "Id": "66",
+            "category": "geography",
+            "question": "What is the capital city of Afghanistan?",
+            "options": ["Kabul", "Herat", "Kandahar", "Mazar-i-Sharif"],
+            "correct_answer": "Kabul"
+        },
+        {
+            "Id": "67",
+            "category": "geography",
+            "question": "Which Pakistani city is known as the gateway to the Khyber Pass?",
+            "options": ["Peshawar", "Lahore", "Karachi", "Islamabad"],
+            "correct_answer": "Peshawar"
+        },
+        {
+            "Id": "68",
+            "category": "geography",
+            "question": "Which mountain range runs along the border between Pakistan and India?",
+            "options": ["Himalayas", "Karakoram", "Tian Shan", "Altai Mountains"],
+            "correct_answer": "Karakoram"
+        },
+        {
+            "Id": "69",
+            "category": "geography",
+            "question": "Which river flows through the city of Lahore in Pakistan?",
+            "options": ["Ravi", "Indus", "Chenab", "Jhelum"],
+            "correct_answer": "Ravi"
+        },
+        {
+            "Id": "70",
+            "category": "geography",
+            "question": "Which of the following mountain peaks is not part of the Himalayas?",
+            "options": ["Mount Everest", "Kangchenjunga", "Makalu", "Mount Fuji"],
+            "correct_answer": "Mount Fuji"
+        },
+        {
+            "Id": "71",
+            "category": "geography",
+            "question": "Which famous mountain is known as the 'Third Pole' due to its vast ice and snow coverage?",
+            "options": ["Mount Everest", "K2", "Kangchenjunga", "Makalu"],
+            "correct_answer": "Mount Everest"
+        },
+        {
+            "Id": "72",
+            "category": "geography",
+            "question": "Which mountain range is considered the youngest and most active in terms of tectonic activity?",
+            "options": ["Himalayas", "Andes", "Alps", "Appalachians"],
+            "correct_answer": "Himalayas"
+        },
+        {
+            "Id": "73",
+            "category": "geography",
+            "question": "Which Pakistani mountain is known for its challenging climbs and is the 9th highest peak in the world?",
+            "options": ["Nanga Parbat", "K2", "Broad Peak", "Gasherbrum II"],
+            "correct_answer": "Nanga Parbat"
+        },
+        {
+            "Id": "74",
+            "category": "geography",
+            "question": "Which river is known as the longest river in Pakistan?",
+            "options": ["Indus", "Chenab", "Jhelum", "Ravi"],
+            "correct_answer": "Indus"
+        },
+        {
+            "Id": "75",
+            "category": "geography",
+            "question": "Which Afghan city is known for being a major cultural and economic center of the country?",
+            "options": ["Kabul", "Herat", "Mazar-i-Sharif", "Jalalabad"],
+            "correct_answer": "Kabul"
+        },
+        {
+            "Id": "76",
+            "category": "geography",
+            "question": "Which country shares the highest number of Himalayan peaks with India?",
+            "options": ["Nepal", "Pakistan", "China", "Bhutan"],
+            "correct_answer": "Nepal"
+        },
+        {
+            "Id": "77",
+            "category": "geography",
+            "question": "Which pass connects the northern region of Pakistan with China?",
+            "options": ["Karakoram Pass", "Khyber Pass", "Zoji La", "Babu Pass"],
+            "correct_answer": "Karakoram Pass"
+        },
+        {
+            "Id": "78",
+            "category": "geography",
+            "question": "Which is the largest city in Pakistan by population?",
+            "options": ["Karachi", "Lahore", "Islamabad", "Rawalpindi"],
+            "correct_answer": "Karachi"
+        },
+        {
+            "Id": "79",
+            "category": "geography",
+            "question": "Which valley in Pakistan is famous for its beautiful landscapes and is often called the 'Switzerland of Pakistan'?",
+            "options": ["Hunza Valley", "Swat Valley", "Neelum Valley", "Kaghan Valley"],
+            "correct_answer": "Hunza Valley"
+        },
+        {
+            "Id": "80",
+            "category": "geography",
+            "question": "Which is the largest desert in Pakistan?",
+            "options": ["Thar Desert", "Kharan Desert", "Cholistan Desert", "Naukrani Desert"],
+            "correct_answer": "Thar Desert"
+        },
+        {
+            "Id": "81",
+            "category": "geography",
+            "question": "Which mountain peak in the Himalayas is located in Bhutan and is considered sacred?",
+            "options": ["Tigers Nest", "Gangkhar Puensum", "Kangchenjunga", "Everest"],
+            "correct_answer": "Gangkhar Puensum"
+        },
+        {
+            "Id": "82",
+            "category": "geography",
+            "question": "Which river is considered the primary river in Afghanistan?",
+            "options": ["Amu Darya", "Helmand", "Kabul", "Oxus"],
+            "correct_answer": "Helmand"
+        },
+        {
+            "Id": "83",
+            "category": "geography",
+            "question": "Which of the following is a famous high-altitude desert in Asia?",
+            "options": ["Gobi Desert", "Karakum Desert", "Kalahari Desert", "Atacama Desert"],
+            "correct_answer": "Gobi Desert"
+        },
+        {
+            "Id": "84",
+            "category": "geography",
+            "question": "Which Asian city is known for being a significant cultural and financial center and is located near the Himalayas?",
+            "options": ["Kathmandu", "Lhasa", "Shimla", "Srinagar"],
+            "correct_answer": "Kathmandu"
+        },
+        {
+            "Id": "85",
+            "category": "geography",
+            "question": "Which mountain in Afghanistan is known for its rugged terrain and is a popular trekking destination?",
+            "options": ["Hindu Kush", "Karakoram", "Pamirs", "Tian Shan"],
+            "correct_answer": "Hindu Kush"
+        },
+        {
+            "Id": "86",
+            "category": "geography",
+            "question": "Which peak in the Himalayas is known for its 'death zone,' where climbers struggle with extreme altitude sickness?",
+            "options": ["Everest", "Lhotse", "Makalu", "Cho Oyu"],
+            "correct_answer": "Everest"
+        },
+        {
+            "Id": "87",
+            "category": "geography",
+            "question": "Which Pakistani city is known for its historical Badshahi Mosque and Lahore Fort?",
+            "options": ["Lahore", "Karachi", "Islamabad", "Peshawar"],
+            "correct_answer": "Lahore"
+        },
+        {
+            "Id": "88",
+            "category": "geography",
+            "question": "Which major river flows through the northern regions of Pakistan and is crucial for its agriculture?",
+            "options": ["Indus", "Chenab", "Jhelum", "Ravi"],
+            "correct_answer": "Indus"
+        },
+        {
+            "Id": "89",
+            "category": "geography",
+            "question": "Which city in Afghanistan is renowned for its ancient minarets and is located near the border with Turkmenistan?",
+            "options": ["Herat", "Kabul", "Mazar-i-Sharif", "Jalalabad"],
+            "correct_answer": "Herat"
+        },
+        {
+            "Id": "90",
+            "category": "geography",
+            "question": "Which peak is located in the Karakoram range and is known for its challenging climbing conditions?",
+            "options": ["Nanga Parbat", "K2", "Broad Peak", "Gasherbrum II"],
+            "correct_answer": "Nanga Parbat"
+        }
+]

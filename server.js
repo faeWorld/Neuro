@@ -13,11 +13,17 @@ const User = require('./models/user');
 const Question = require('./models/Questions');
 
 const app = express();
+
+const PORT = process.env.PORT || 3002; 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 // Serve static files from the React app
 app.use(express.static(path.join(__dirname, 'my-app/build')));
+// Catch-all handler to serve React's index.html for any route not handled by API routes
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, 'my-app/build', 'index.html'));
+});
 
 // Nodemailer setup
 const transporter = nodemailer.createTransport({
@@ -42,6 +48,17 @@ app.post('/subscribe', async (req, res) => {
     res.send('You are already registered.');
   }
 });
+app.post('/validate-code', async (req, res) => {
+  const { email, code } = req.body;
+  let user = await User.findOne({ email: email });
+
+  if (user && user.code === code) {
+    res.json({ valid: true });
+  } else {
+    res.json({ valid: false });
+  }
+});
+
 
 app.post('/submit-test', async (req, res) => {
   const { email, score } = req.body;
@@ -80,10 +97,7 @@ app.get('/monthly-subscriptions', async (req, res) => {
   }
 });
 
-// Catch-all handler to serve React's index.html for any route not handled by API routes
-app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, 'my-app/build', 'index.html'));
-});
+
 
 // Monthly notification job
 cron.schedule('0 0 1 * *', async () => {
@@ -128,6 +142,6 @@ mongoose.connect(process.env.MONGO_URI, { useNewUrlParser: true, useUnifiedTopol
   .then(() => console.log('MongoDB connected...'))
   .catch(err => console.log(err));
 
-app.listen(3000, () => {
-  console.log('Server started on port 3000');
-});
+  app.listen(PORT, () => {
+    console.log(`Server started on port ${PORT}`);
+  });

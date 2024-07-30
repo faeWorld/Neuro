@@ -1,30 +1,119 @@
-.knowledge-test {
-    text-align: center;
-  }
-  
-  .book-container {
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    width: 80%;
-  }
-  
-  .question-container {
-    margin: 20px 0;
-    padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    background: #f9f9f9;
-  }
+.question-container {
+  background-color: #911cff; /* Background color for the bubble */
+  border: 2px solid #6800ca; /* Darker border color for better contrast */
+  border-radius: 15px; /* More rounded edges for a bubbly effect */
+  padding: 30px; /* Increased padding for better content spacing */
+  max-width: 800px; /* Maximum width for readability */
+  width: 100%; /* Full width up to the max-width */
+  height: 290px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); 
+  text-align: center; /* Center text inside the bubble */
+  position: absolute; /* Position absolute to place it on top of the book container */
+  top: 0; /* Position it at the top of the book container */
+  left: 50%; /* Center it horizontally */
+  transform: translateX(-50%); /* Adjust horizontal centering */
+  z-index: 1; /* Ensure it appears above the book container */
+}
   
   .navigation-buttons {
-    margin-top: 20px;
+    align-items: center;
+    border-color: none;
+    font-family: 'Minecraftia', sans-serif; 
   }
   
   .navigation-buttons button {
-    margin: 0 10px;
+    margin:  10px;
     padding: 10px 20px;
+    border-radius: 10px;
     font-size: 16px;
     cursor: pointer;
+    background: #78ff09;
+    font-family: 'Minecraftia', sans-serif; 
+   
   }
-  
+  /* Hover effect */
+.navigation-buttons button:hover {
+  background: rgb(163, 254, 6); /* Slightly darker green */
+  transform: scale(1.05); /* Slightly enlarge on hover */
+  border-color: none;
+  font-family: 'Minecraftia', sans-serif; 
+  font-size: 22px;
+  border-width: 3px;
+}
+
+/* Active effect */
+.navigation-buttons button:active {
+  background: rgb(163, 254, 6); /* Even darker green when clicked */
+  transform: scale(0.98); /* Slightly shrink on click */
+  border-color: none;
+  font-family: 'Minecraftia', sans-serif; 
+}
+
+/* Disabled button state */
+.navigation-buttons button:disabled {
+  background: #78ff09; /* Light grey background for disabled state */
+  color: #636363; /* Light grey text color */
+  cursor: not-allowed; /* Change cursor to indicate disabled state */
+  border-color: none;
+  font-family: 'Minecraftia', sans-serif; 
+}
+/* Container to wrap book-container and question-container */
+.container {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ 
+  .book-container {
+    display: flex;
+    flex-direction: column; /* Stack questions vertically */
+    align-items: center;
+    justify-content: center;
+    height: 70vh; /* Adjust as needed */
+    width: 80vw; /* Adjust width to fit well within viewport */
+    max-width: 1000px; /* Optional: Set a maximum width */
+    padding: 20px;
+    background: #f28f8f4d; /* Light background color */
+    border-radius: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+   
+
+  }
+
+  /* Background animation */
+@keyframes backgroundMotion {
+  0% { background-position: 0 0; }
+  100% { background-position: 100% 100%; }
+}
+
+
+
+.knowledge-test {
+  text-align: right;
+  background-color:none;
+  padding-top: 25px;
+  padding-left: 200px;
+  padding-right: 100px;
+  align-items: center;
+  background-color: none;
+  flex-direction: column;
+  justify-content: center;
+
+  /*position: absolute; /* Ensure the ::before pseudo-element can be used */
+  /*min-height: 100vh; /* Ensure .home takes up at least the full viewport height */
+}
+
+.knowledge-test::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, #942ff8, #a055d9, #ff920e, #f7337e, #ff920e, #a055d9,#942ff8);
+  background-size: 400% 400%;
+  animation: backgroundMotion 15s ease infinite;
+  z-index: -1; /* Place it behind the content */
+}

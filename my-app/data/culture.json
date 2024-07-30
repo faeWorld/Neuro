@@ -1,0 +1,681 @@
+[
+    {
+        "Id": "1",
+        "category": "culture",
+        "question": "Which skincare trend involves using multiple layers of lightweight, hydrating products to achieve a dewy, glowing complexion?",
+        "options": ["K-Beauty Routine", "French Skincare", "American Skincare", "Japanese Skincare"],
+        "correct_answer": "K-Beauty Routine"
+    },
+    {
+        "Id": "2",
+        "category": "culture",
+        "question": "Which skincare practice is known for its emphasis on minimalism, focusing on fewer products to maintain healthy skin?",
+        "options": ["French Skincare", "K-Beauty Routine", "American Skincare", "Japanese Skincare"],
+        "correct_answer": "French Skincare"
+    },
+    {
+        "Id": "3",
+        "category": "culture",
+        "question": "Which trend in skincare is characterized by the use of natural ingredients and DIY remedies to treat skin issues?",
+        "options": ["DIY Skincare", "Luxury Skincare", "Tech-Based Skincare", "Professional Treatments"],
+        "correct_answer": "DIY Skincare"
+    },
+    {
+        "Id": "4",
+        "category": "culture",
+        "question": "Which term describes the practice of using high-quality, often expensive skincare products for visible anti-aging effects?",
+        "options": ["Luxury Skincare", "Minimalist Skincare", "Organic Skincare", "Pharmaceutical Skincare"],
+        "correct_answer": "Luxury Skincare"
+    },
+    {
+        "Id": "5",
+        "category": "culture",
+        "question": "Which culture is known for integrating skincare into its daily wellness routines, focusing on hydration and UV protection?",
+        "options": ["Japanese Skincare", "American Skincare", "French Skincare", "Korean Skincare"],
+        "correct_answer": "Japanese Skincare"
+    },
+    {
+        "Id": "6",
+        "category": "culture",
+        "question": "Which concept in freelancing refers to the ability to manage multiple projects and clients simultaneously?",
+        "options": ["Multi-Tasking", "Job Hopping", "Freelance Juggling", "Client Management"],
+        "correct_answer": "Freelance Juggling"
+    },
+    {
+        "Id": "7",
+        "category": "culture",
+        "question": "Which online platform is widely used by freelancers to find work and connect with clients across various industries?",
+        "options": ["Upwork", "LinkedIn", "Indeed", "Glassdoor"],
+        "correct_answer": "Upwork"
+    },
+    {
+        "Id": "8",
+        "category": "culture",
+        "question": "Which term describes a freelancer who specializes in a specific niche or skill set to attract a targeted client base?",
+        "options": ["Specialized Freelancer", "Generalist Freelancer", "Freelance Generalist", "Niche Expert"],
+        "correct_answer": "Specialized Freelancer"
+    },
+    {
+        "Id": "9",
+        "category": "culture",
+        "question": "Which practice is essential for freelancers to ensure they are paid for their work and manage their finances effectively?",
+        "options": ["Invoicing", "Networking", "Marketing", "Skill Development"],
+        "correct_answer": "Invoicing"
+    },
+    {
+        "Id": "10",
+        "category": "culture",
+        "question": "Which aspect of freelancing involves creating a personal brand to stand out and attract potential clients?",
+        "options": ["Personal Branding", "Networking", "Project Management", "Client Retention"],
+        "correct_answer": "Personal Branding"
+    },
+    {
+        "Id": "11",
+        "category": "culture",
+        "question": "Which K-pop phenomenon involves fans participating in online voting and streaming campaigns to support their favorite groups?",
+        "options": ["Fan Projects", "Fan Voting", "Fan Events", "Fan Merchandise"],
+        "correct_answer": "Fan Voting"
+    },
+    {
+        "Id": "12",
+        "category": "culture",
+        "question": "Which K-pop trend involves groups releasing concept trailers and teaser photos to build anticipation for upcoming comebacks?",
+        "options": ["Concept Teasers", "Music Videos", "Live Performances", "Fan Meetings"],
+        "correct_answer": "Concept Teasers"
+    },
+    {
+        "Id": "13",
+        "category": "culture",
+        "question": "Which K-pop cultural event is known for its high-energy performances and showcases a variety of acts from different groups?",
+        "options": ["K-Con", "K-Pop World Festival", "MAMA", "K-Pop Live"],
+        "correct_answer": "MAMA"
+    },
+    {
+        "Id": "14",
+        "category": "culture",
+        "question": "Which trend in K-pop involves using social media platforms to interact directly with fans and provide behind-the-scenes content?",
+        "options": ["Social Media Engagement", "Fan Meetings", "Music Video Releases", "Concert Tours"],
+        "correct_answer": "Social Media Engagement"
+    },
+    {
+        "Id": "15",
+        "category": "culture",
+        "question": "Which term describes K-pop idols who are known for their strong influence and leadership in the industry?",
+        "options": ["Top Idols", "K-pop Leaders", "Influential Idols", "Group Leaders"],
+        "correct_answer": "Influential Idols"
+    },
+    {
+        "Id": "16",
+        "category": "culture",
+        "question": "Which global cultural movement emphasizes the importance of preserving and celebrating diverse traditions and practices across different societies?",
+        "options": ["Cultural Preservation", "Globalization", "Modernization", "Cultural Assimilation"],
+        "correct_answer": "Cultural Preservation"
+    },
+    {
+        "Id": "17",
+        "category": "culture",
+        "question": "Which trend involves the use of augmented reality (AR) technology to enhance user experiences in retail and marketing by overlaying digital information onto physical spaces?",
+        "options": ["Augmented Reality Marketing", "Virtual Reality Shopping", "Digital Signage", "Interactive Displays"],
+        "correct_answer": "Augmented Reality Marketing"
+    },
+    {
+        "Id": "18",
+        "category": "culture",
+        "question": "Which form of online content is characterized by short, engaging videos often featuring humorous or entertaining themes and trends?",
+        "options": ["Short-Form Video Content", "Long-Form Articles", "In-Depth Documentaries", "Live Streams"],
+        "correct_answer": "Short-Form Video Content"
+    },
+    {
+        "Id": "19",
+        "category": "culture",
+        "question": "Which cultural trend involves the use of immersive technology to create virtual worlds and experiences that can be accessed through VR headsets?",
+        "options": ["Virtual Reality", "Augmented Reality", "Mixed Reality", "Extended Reality"],
+        "correct_answer": "Virtual Reality"
+    },
+    {
+        "Id": "20",
+        "category": "culture",
+        "question": "Which trend in online shopping involves offering limited-time deals and discounts to create a sense of urgency among consumers?",
+        "options": ["Flash Sales", "Seasonal Sales", "End-of-Season Sales", "Clearance Sales"],
+        "correct_answer": "Flash Sales"
+    },
+    {
+        "Id": "21",
+        "category": "culture",
+        "question": "Which trend involves the use of smart devices and wearables to track and monitor personal health and fitness data?",
+        "options": ["Health Tracking", "Fitness Clubs", "Personal Training", "Diet Plans"],
+        "correct_answer": "Health Tracking"
+    },
+    {
+        "Id": "22",
+        "category": "culture",
+        "question": "Which online practice involves engaging with users through live streaming and real-time interactions, often used by gamers and content creators?",
+        "options": ["Live Streaming", "Recorded Videos", "Scheduled Posts", "Automated Messages"],
+        "correct_answer": "Live Streaming"
+    },
+    {
+        "Id": "23",
+        "category": "culture",
+        "question": "Which trend involves the use of artificial intelligence to generate creative content, such as art, music, and writing, through machine learning algorithms?",
+        "options": ["AI-Generated Content", "Human-Created Content", "Crowdsourced Content", "Traditional Media"],
+        "correct_answer": "AI-Generated Content"
+    },
+    {
+        "Id": "24",
+        "category": "culture",
+        "question": "Which cultural phenomenon involves the use of technology to create and share user-generated content, such as blogs, vlogs, and podcasts?",
+        "options": ["Content Creation", "Traditional Publishing", "Broadcast Media", "Print Media"],
+        "correct_answer": "Content Creation"
+    },
+    {
+        "Id": "25",
+        "category": "culture",
+        "question": "Which online trend involves the use of viral challenges and hashtags to engage users and create community-driven campaigns?",
+        "options": ["Hashtag Challenges", "Influencer Campaigns", "Sponsored Ads", "Traditional Marketing"],
+        "correct_answer": "Hashtag Challenges"
+    },
+    {
+        "Id": "26",
+        "category": "culture",
+        "question": "Which trend in digital communication emphasizes the use of emojis and GIFs to express emotions and reactions in online conversations?",
+        "options": ["Emojis and GIFs", "Text-Based Communication", "Voice Messages", "Video Calls"],
+        "correct_answer": "Emojis and GIFs"
+    },
+    {
+        "Id": "27",
+        "category": "culture",
+        "question": "Which global cultural trend involves the fusion of traditional music styles with modern genres, creating unique and hybrid musical experiences?",
+        "options": ["Genre Fusion", "Traditional Music", "Classical Music", "Electronic Music"],
+        "correct_answer": "Genre Fusion"
+    },
+    {
+        "Id": "28",
+        "category": "culture",
+        "question": "Which cultural movement focuses on the sustainable and ethical production of fashion items to minimize environmental impact?",
+        "options": ["Sustainable Fashion", "Fast Fashion", "Luxury Fashion", "Vintage Fashion"],
+        "correct_answer": "Sustainable Fashion"
+    },
+    {
+        "Id": "29",
+        "category": "culture",
+        "question": "Which global trend involves the increasing popularity of plant-based diets and the rise of vegetarian and vegan food options?",
+        "options": ["Plant-Based Eating", "Meat Consumption", "Traditional Diets", "Seafood Trends"],
+        "correct_answer": "Plant-Based Eating"
+    },
+    {
+        "Id": "30",
+        "category": "culture",
+        "question": "Which trend in online media involves the use of influencers to promote products and services to their followers through social media platforms?",
+        "options": ["Influencer Marketing", "Traditional Advertising", "Direct Sales", "Affiliate Marketing"],
+        "correct_answer": "Influencer Marketing"
+    },
+    {
+        "Id": "31",
+        "category": "culture",
+        "question": "Which concept in global cuisine involves the blending of ingredients and cooking techniques from different cultural backgrounds?",
+        "options": ["Fusion Cuisine", "Ethnic Cuisine", "Traditional Cuisine", "Regional Cuisine"],
+        "correct_answer": "Fusion Cuisine"
+    },
+    {
+        "Id": "32",
+        "category": "culture",
+        "question": "Which term refers to the digital marketplace where users can buy, sell, and trade virtual items such as NFTs and digital assets?",
+        "options": ["Digital Marketplace", "Virtual Store", "Online Auction", "Blockchain Market"],
+        "correct_answer": "Digital Marketplace"
+    },
+    {
+        "Id": "33",
+        "category": "culture",
+        "question": "Which practice involves participating in online communities and forums to share knowledge, seek advice, and connect with like-minded individuals?",
+        "options": ["Online Networking", "Social Media Engagement", "Community Forums", "Blogging"],
+        "correct_answer": "Community Forums"
+    },
+    {
+        "Id": "34",
+        "category": "culture",
+        "question": "Which cultural trend emphasizes the importance of mental well-being and self-care practices, often promoted through social media influencers?",
+        "options": ["Wellness Culture", "Fitness Culture", "Productivity Culture", "Travel Culture"],
+        "correct_answer": "Wellness Culture"
+    },
+    {
+        "Id": "35",
+        "category": "culture",
+        "question": "Which practice involves leveraging data and analytics to understand consumer behavior and tailor marketing strategies accordingly?",
+        "options": ["Data-Driven Marketing", "Traditional Marketing", "Creative Advertising", "Brand Awareness"],
+        "correct_answer": "Data-Driven Marketing"
+    },
+    {
+        "Id": "36",
+        "category": "culture",
+        "question": "Which trend in entertainment involves creating and sharing short, engaging stories and content on platforms like Instagram and TikTok?",
+        "options": ["Short-Form Content", "Long-Form Content", "Interactive Content", "Traditional Media"],
+        "correct_answer": "Short-Form Content"
+    },
+    {
+        "Id": "37",
+        "category": "culture",
+        "question": "Which global trend focuses on the importance of preserving traditional crafts and artisanal techniques in the face of mass production?",
+        "options": ["Craft Preservation", "Mass Production", "Modern Design", "Industrial Manufacturing"],
+        "correct_answer": "Craft Preservation"
+    },
+    {
+        "Id": "38",
+        "category": "culture",
+        "question": "Which cultural trend involves the growing popularity of eco-friendly and zero-waste products in daily consumer choices?",
+        "options": ["Sustainable Living", "Fast Consumption", "Luxury Goods", "Convenience Products"],
+        "correct_answer": "Sustainable Living"
+    },
+    {
+        "Id": "39",
+        "category": "culture",
+        "question": "Which trend in technology involves the use of artificial intelligence and machine learning to create personalized user experiences and recommendations?",
+        "options": ["AI Personalization", "Manual Recommendations", "Traditional Marketing", "Generic Content"],
+        "correct_answer": "AI Personalization"
+    },
+    {
+        "Id": "40",
+        "category": "culture",
+        "question": "Which term refers to the practice of integrating cultural and historical elements into modern design and architecture?",
+        "options": ["Cultural Integration", "Modern Design", "Traditional Architecture", "Historic Revival"],
+        "correct_answer": "Cultural Integration"
+    },
+    {
+        "Id": "41",
+        "category": "culture",
+        "question": "Which K-pop trend involves groups releasing concept trailers and teaser photos to build anticipation for upcoming comebacks?",
+        "options": ["Concept Teasers", "Music Videos", "Live Performances", "Fan Meetings"],
+        "correct_answer": "Concept Teasers"
+    },
+    {
+        "Id": "42",
+        "category": "culture",
+        "question": "Which K-pop cultural event is known for its high-energy performances and showcases a variety of acts from different groups?",
+        "options": ["K-Con", "K-Pop World Festival", "MAMA", "K-Pop Live"],
+        "correct_answer": "MAMA"
+    },
+    {
+        "Id": "43",
+        "category": "culture",
+        "question": "Which term describes the practice of using traditional and contemporary art forms to promote cultural heritage and identity?",
+        "options": ["Cultural Promotion", "Artistic Integration", "Modern Heritage", "Traditional Arts"],
+        "correct_answer": "Cultural Promotion"
+    },
+    {
+        "Id": "44",
+        "category": "culture",
+        "question": "Which global trend involves the use of social media platforms to promote social causes and drive change through viral campaigns?",
+        "options": ["Social Activism", "Digital Marketing", "Brand Promotion", "Product Launches"],
+        "correct_answer": "Social Activism"
+    },
+    {
+        "Id": "45",
+        "category": "culture",
+        "question": "Which term describes the growing popularity of digital nomadism, where individuals work remotely while traveling and exploring different locations?",
+        "options": ["Digital Nomadism", "Remote Work", "Travel Work", "Freelance Lifestyle"],
+        "correct_answer": "Digital Nomadism"
+    },
+    {
+        "Id": "46",
+        "category": "culture",
+        "question": "Which concept in modern education emphasizes the use of online tools and resources to facilitate learning and skill development?",
+        "options": ["E-Learning", "Traditional Education", "Classroom Learning", "Hands-On Training"],
+        "correct_answer": "E-Learning"
+    },
+    {
+        "Id": "47",
+        "category": "culture",
+        "question": "Which practice involves using online platforms to offer and access freelance services across various industries?",
+        "options": ["Freelance Platforms", "Job Boards", "Professional Networks", "Recruitment Agencies"],
+        "correct_answer": "Freelance Platforms"
+    },
+    {
+        "Id": "48",
+        "category": "culture",
+        "question": "Which term refers to the blending of various musical genres and styles to create innovative and unique soundscapes?",
+        "options": ["Genre Blending", "Musical Innovation", "Sound Experimentation", "Traditional Music"],
+        "correct_answer": "Genre Blending"
+    },
+    {
+        "Id": "49",
+        "category": "culture",
+        "question": "Which global trend involves the growing interest in minimalism and decluttering personal spaces to enhance mental well-being?",
+        "options": ["Minimalism", "Maximalism", "Consumerism", "Traditional Decor"],
+        "correct_answer": "Minimalism"
+    },
+    {
+        "Id": "50",
+        "category": "culture",
+        "question": "Which cultural trend focuses on integrating eco-friendly practices into daily life, including sustainable fashion and green living?",
+        "options": ["Eco-Friendly Living", "Fast Fashion", "Luxury Lifestyle", "Traditional Practices"],
+        "correct_answer": "Eco-Friendly Living"
+    },
+    {
+        "Id": "51",
+        "category": "culture",
+        "question": "Which practice involves the use of creative and innovative approaches to solve problems and address challenges in various fields?",
+        "options": ["Creative Problem-Solving", "Traditional Methods", "Routine Solutions", "Standard Procedures"],
+        "correct_answer": "Creative Problem-Solving"
+    },
+    {
+        "Id": "52",
+        "category": "culture",
+        "question": "Which trend in digital marketing focuses on using targeted ads and personalized content to reach specific consumer segments?",
+        "options": ["Targeted Advertising", "General Advertising", "Mass Marketing", "Broad Outreach"],
+        "correct_answer": "Targeted Advertising"
+    },
+    {
+        "Id": "53",
+        "category": "culture",
+        "question": "Which term describes the practice of incorporating diverse cultural elements into mainstream media and entertainment?",
+        "options": ["Cultural Integration", "Cultural Appropriation", "Cultural Insensitivity", "Cultural Preservation"],
+        "correct_answer": "Cultural Integration"
+    },
+    {
+        "Id": "54",
+        "category": "culture",
+        "question": "Which global trend involves the growing popularity of remote work and flexible job arrangements, allowing individuals to balance work and personal life?",
+        "options": ["Remote Work", "Traditional Office Work", "Full-Time Employment", "On-Site Work"],
+        "correct_answer": "Remote Work"
+    },
+    {
+        "Id": "55",
+        "category": "culture",
+        "question": "Which cultural trend focuses on the celebration of diverse identities and experiences through media and public events?",
+        "options": ["Diversity and Inclusion", "Cultural Uniformity", "Traditionalism", "Historical Preservation"],
+        "correct_answer": "Diversity and Inclusion"
+    },
+    {
+        "Id": "56",
+        "category": "culture",
+        "question": "Which K-pop practice involves artists engaging directly with fans through live broadcasts and interactive sessions?",
+        "options": ["Fan Interaction", "Concept Teasers", "Music Releases", "Choreography Practice"],
+        "correct_answer": "Fan Interaction"
+    },
+    {
+        "Id": "57",
+        "category": "culture",
+        "question": "Which global trend focuses on the increasing adoption of digital wallets and contactless payment methods for financial transactions?",
+        "options": ["Digital Payments", "Cash Transactions", "Traditional Banking", "Physical Cards"],
+        "correct_answer": "Digital Payments"
+    },
+    {
+        "Id": "58",
+        "category": "culture",
+        "question": "Which term describes the process of making traditional practices and cultural elements accessible and relevant to modern audiences?",
+        "options": ["Cultural Modernization", "Cultural Preservation", "Traditional Adaptation", "Historic Revival"],
+        "correct_answer": "Cultural Modernization"
+    },
+    {
+        "Id": "59",
+        "category": "culture",
+        "question": "Which concept in global cuisine emphasizes the fusion of local ingredients with international cooking techniques to create new and exciting dishes?",
+        "options": ["Global Fusion Cuisine", "Regional Cuisine", "Traditional Cooking", "Ethnic Dishes"],
+        "correct_answer": "Global Fusion Cuisine"
+    },
+    {
+        "Id": "60",
+        "category": "culture",
+        "question": "Which cultural trend involves the rise of online communities and forums dedicated to specific hobbies and interests?",
+        "options": ["Hobbyist Communities", "General Forums", "Social Networks", "Professional Groups"],
+        "correct_answer": "Hobbyist Communities"
+    },
+    {
+        "Id": "61",
+        "category": "culture",
+        "question": "Which K-pop trend involves the use of elaborate music videos and visually stunning concepts to enhance the appeal of a song?",
+        "options": ["Concept Videos", "Live Performances", "Dance Practices", "Behind-the-Scenes Clips"],
+        "correct_answer": "Concept Videos"
+    },
+    {
+        "Id": "62",
+        "category": "culture",
+        "question": "Which trend involves the growing popularity of non-alcoholic beverages and mocktails as alternatives to traditional alcoholic drinks?",
+        "options": ["Mocktail Culture", "Alcoholic Beverages", "Craft Cocktails", "Traditional Spirits"],
+        "correct_answer": "Mocktail Culture"
+    },
+    {
+        "Id": "63",
+        "category": "culture",
+        "question": "Which global trend emphasizes the importance of transparency and authenticity in brand communications and consumer relationships?",
+        "options": ["Brand Authenticity", "Traditional Advertising", "Corporate Secrecy", "Inconsistent Messaging"],
+        "correct_answer": "Brand Authenticity"
+    },
+    {
+        "Id": "64",
+        "category": "culture",
+        "question": "Which cultural movement focuses on the integration of modern technology with traditional art forms to create innovative experiences?",
+        "options": ["Tech-Art Integration", "Traditional Arts", "Digital Art", "Historic Preservation"],
+        "correct_answer": "Tech-Art Integration"
+    },
+    {
+        "Id": "65",
+        "category": "culture",
+        "question": "Which trend involves the increasing use of augmented reality (AR) and virtual reality (VR) technologies to enhance entertainment and consumer experiences?",
+        "options": ["AR/VR Technology", "Traditional Media", "Physical Events", "Basic Technology"],
+        "correct_answer": "AR/VR Technology"
+    },
+    {
+        "Id": "66",
+        "category": "culture",
+        "question": "Which concept refers to the practice of creating and sharing content that reflects cultural heritage and personal experiences?",
+        "options": ["Cultural Storytelling", "Traditional Narratives", "Generic Content", "Corporate Messaging"],
+        "correct_answer": "Cultural Storytelling"
+    },
+    {
+        "Id": "67",
+        "category": "culture",
+        "question": "Which global trend involves the increasing use of subscription-based services for media consumption, such as streaming platforms and digital magazines?",
+        "options": ["Subscription Economy", "One-Time Purchases", "Physical Media", "Free Content"],
+        "correct_answer": "Subscription Economy"
+    },
+    {
+        "Id": "68",
+        "category": "culture",
+        "question": "Which term describes the blending of traditional storytelling techniques with modern digital formats to engage audiences in new ways?",
+        "options": ["Digital Storytelling", "Traditional Narratives", "Live Performances", "Written Stories"],
+        "correct_answer": "Digital Storytelling"
+    },
+    {
+        "Id": "69",
+        "category": "culture",
+        "question": "Which trend in food culture involves the popularity of gourmet and artisanal food products with a focus on high quality and unique flavors?",
+        "options": ["Gourmet Food", "Fast Food", "Convenience Foods", "Traditional Dishes"],
+        "correct_answer": "Gourmet Food"
+    },
+    {
+        "Id": "70",
+        "category": "culture",
+        "question": "Which global trend involves the rise of virtual events and online gatherings as alternatives to in-person interactions?",
+        "options": ["Virtual Events", "In-Person Meetings", "Traditional Gatherings", "Physical Conferences"],
+        "correct_answer": "Virtual Events"
+    },
+    {
+        "Id": "71",
+        "category": "culture",
+        "question": "Which K-pop trend involves the use of choreography and dance practices to enhance the performance and appeal of a song?",
+        "options": ["Dance Practices", "Concept Videos", "Fan Interactions", "Music Releases"],
+        "correct_answer": "Dance Practices"
+    },
+    {
+        "Id": "72",
+        "category": "culture",
+        "question": "Which global trend focuses on the increasing importance of ethical consumption and supporting brands with positive social and environmental impact?",
+        "options": ["Ethical Consumption", "Consumerism", "Mass Production", "Luxury Spending"],
+        "correct_answer": "Ethical Consumption"
+    },
+    {
+        "Id": "73",
+        "category": "culture",
+        "question": "Which term refers to the practice of using digital platforms to offer and access freelance work opportunities and services?",
+        "options": ["Freelance Marketplaces", "Job Boards", "Career Websites", "Professional Networks"],
+        "correct_answer": "Freelance Marketplaces"
+    },
+    {
+        "Id": "74",
+        "category": "culture",
+        "question": "Which cultural trend involves the growing use of podcasts and audiobooks for entertainment and education?",
+        "options": ["Audio Content", "Traditional Books", "Printed Media", "Visual Media"],
+        "correct_answer": "Audio Content"
+    },
+    {
+        "Id": "75",
+        "category": "culture",
+        "question": "Which K-pop trend involves the collaboration between different artists and groups to create unique and innovative music projects?",
+        "options": ["Collaborations", "Solo Projects", "Concept Teasers", "Dance Practices"],
+        "correct_answer": "Collaborations"
+    },
+    {
+        "Id": "76",
+        "category": "culture",
+        "question": "Which global trend emphasizes the importance of transparency and accountability in business practices and consumer relations?",
+        "options": ["Business Transparency", "Corporate Secrecy", "Traditional Marketing", "Brand Loyalty"],
+        "correct_answer": "Business Transparency"
+    },
+    {
+        "Id": "77",
+        "category": "culture",
+        "question": "Which concept refers to the integration of sustainable practices into various aspects of daily life, including consumption, production, and waste management?",
+        "options": ["Sustainable Living", "Eco-Friendly Products", "Greenwashing", "Traditional Practices"],
+        "correct_answer": "Sustainable Living"
+    },
+    {
+        "Id": "78",
+        "category": "culture",
+        "question": "Which K-pop trend involves the use of fan-created content and participation to enhance the fan experience and build community?",
+        "options": ["Fan Content", "Music Releases", "Concept Videos", "Live Performances"],
+        "correct_answer": "Fan Content"
+    },
+    {
+        "Id": "79",
+        "category": "culture",
+        "question": "Which global trend focuses on the rise of online learning platforms and educational apps that provide flexible learning options?",
+        "options": ["Online Learning", "Traditional Classes", "In-Person Training", "Formal Education"],
+        "correct_answer": "Online Learning"
+    },
+    {
+        "Id": "80",
+        "category": "culture",
+        "question": "Which term describes the use of digital tools and technologies to create immersive and interactive storytelling experiences?",
+        "options": ["Immersive Storytelling", "Traditional Storytelling", "Interactive Narratives", "Digital Content"],
+        "correct_answer": "Immersive Storytelling"
+    },
+    {
+        "Id": "84",
+        "category": "culture",
+        "question": "Which popular dish in Desi cuisine is a rice-based meal cooked with spices, meat, and sometimes vegetables?",
+        "options": ["Biryani", "Samosa", "Naan", "Chaat"],
+        "correct_answer": "Biryani"
+    },
+    {
+        "Id": "85",
+        "category": "culture",
+        "question": "Which traditional Arab dish consists of spiced rice, meat, and vegetables, often cooked in a single pot?",
+        "options": ["Mandi", "Falafel", "Hummus", "Shawarma"],
+        "correct_answer": "Mandi"
+    },
+    {
+        "Id": "86",
+        "category": "culture",
+        "question": "Which Asian country is known for its traditional tea ceremonies and has a rich history of tea culture?",
+        "options": ["Japan", "India", "Thailand", "Vietnam"],
+        "correct_answer": "Japan"
+    },
+    {
+        "Id": "87",
+        "category": "culture",
+        "question": "In which Arab culture is the practice of hosting large communal meals called iftar observed during Ramadan?",
+        "options": ["Saudi Arabian", "Egyptian", "Lebanese", "Moroccan"],
+        "correct_answer": "Saudi Arabian"
+    },
+    {
+        "Id": "88",
+        "category": "culture",
+        "question": "Which Desi festival, celebrated with vibrant colors, signifies the arrival of spring and the triumph of good over evil?",
+        "options": ["Holi", "Diwali", "Eid", "Navratri"],
+        "correct_answer": "Holi"
+    },
+    {
+        "Id": "89",
+        "category": "culture",
+        "question": "Which popular Asian street food consists of thinly sliced meat grilled on skewers, often served with a dipping sauce?",
+        "options": ["Satay", "Kimchi", "Tempura", "Pho"],
+        "correct_answer": "Satay"
+    },
+    {
+        "Id": "90",
+        "category": "culture",
+        "question": "Which traditional Arab drink made from fermented dates or grapes is commonly enjoyed during special occasions?",
+        "options": ["Arak", "Mint Tea", "Laban", "Qamar al-Din"],
+        "correct_answer": "Arak"
+    },
+    {
+        "Id": "91",
+        "category": "culture",
+        "question": "Which Asian country is renowned for its elaborate and colorful festivals, including the Lantern Festival and Dragon Boat Festival?",
+        "options": ["China", "Korea", "Thailand", "Japan"],
+        "correct_answer": "China"
+    },
+    {
+        "Id": "92",
+        "category": "culture",
+        "question": "In Desi culture, which term describes a grand feast or celebration, often associated with weddings or major events?",
+        "options": ["Shaadi", "Chaat", "Thali", "Biryani"],
+        "correct_answer": "Shaadi"
+    },
+    {
+        "Id": "93",
+        "category": "culture",
+        "question": "Which traditional Arab dish made from crushed chickpeas or fava beans is often enjoyed as a snack or appetizer?",
+        "options": ["Falafel", "Hummus", "Tabbouleh", "Kebab"],
+        "correct_answer": "Falafel"
+    },
+    {
+        "Id": "94",
+        "category": "culture",
+        "question": "Which Asian cultural practice involves meditation and martial arts, often associated with self-discipline and personal development?",
+        "options": ["Kung Fu", "Sumi-e", "Origami", "Kimonos"],
+        "correct_answer": "Kung Fu"
+    },
+    {
+        "Id": "95",
+        "category": "culture",
+        "question": "Which Desi entertainment form, known for its colorful costumes and dramatic performances, is a popular traditional dance in India?",
+        "options": ["Bollywood", "Kathak", "Bharatanatyam", "Kuchipudi"],
+        "correct_answer": "Kathak"
+    },
+    {
+        "Id": "96",
+        "category": "culture",
+        "question": "Which Arab dessert made from semolina, sugar, and butter, often flavored with rose or orange blossom water, is popular in the Middle East?",
+        "options": ["Basbousa", "Baklava", "Kunafa", "Ma'amoul"],
+        "correct_answer": "Basbousa"
+    },
+    {
+        "Id": "97",
+        "category": "culture",
+        "question": "Which traditional Asian dish, commonly served in a hot pot, consists of a rich broth with a variety of ingredients cooked table-side?",
+        "options": ["Shabu-Shabu", "Sushi", "Pho", "Tempura"],
+        "correct_answer": "Shabu-Shabu"
+    },
+    {
+        "Id": "98",
+        "category": "culture",
+        "question": "Which Desi cultural event, known for its extravagant decorations and elaborate rituals, marks the festival of lights and victory of light over darkness?",
+        "options": ["Diwali", "Holi", "Navratri", "Eid"],
+        "correct_answer": "Diwali"
+    },
+    {
+        "Id": "99",
+        "category": "culture",
+        "question": "Which Arab tradition involves communal gatherings and storytelling around a fire, often accompanied by music and dance?",
+        "options": ["Majlis", "Iftar", "Souk", "Riwaq"],
+        "correct_answer": "Majlis"
+    },
+    {
+        "Id": "100",
+        "category": "culture",
+        "question": "Which Asian country is known for its vibrant and dynamic pop culture, including anime, J-pop, and traditional festivals?",
+        "options": ["Japan", "Korea", "Thailand", "China"],
+        "correct_answer": "Japan"
+    }
+]

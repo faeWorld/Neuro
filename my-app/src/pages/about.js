@@ -3,12 +3,7 @@ import './about.css'; // Import CSS file for styling
 
 
 const About = () => {
-  const peelas = [
-    '/peela1.png',
-    '/peela2.png',
-    '/peela3.png',
-    '/peela4.png'
-  ];
+
   //-------------------------------------------------------------------------
   return (
     <div className="about">
@@ -31,11 +26,7 @@ const About = () => {
 
       </div>
       </div>
-      <div className="peela-container">
-        {peelas.map((src, index) => (
-          <img key={index} src={src} alt="Peela" className="peela" style={{ animationDelay: `${index * 2.5}s` }} />
-        ))}
-      </div>
+    
     </div>
   );
 };

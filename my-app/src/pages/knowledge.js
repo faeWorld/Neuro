@@ -5,6 +5,7 @@ const KnowledgeTest = () => {
   const [questions, setQuestions] = useState([]);
   const [currentPage, setCurrentPage] = useState(0);
   const [selectedAnswers, setSelectedAnswers] = useState({});
+  const [score, setScore] = useState(null);
 
   useEffect(() => {
     // Fetch questions from the API
@@ -39,37 +40,47 @@ const KnowledgeTest = () => {
   };
 
   const handleSubmit = () => {
-    // Submit answers to the server or process them
-    console.log('Selected Answers:', selectedAnswers);
+    let newScore = 0;
+    questions.forEach(q => {
+      if (selectedAnswers[q.id] === q.correctAnswer) {
+        newScore += 1;
+      }
+    });
+    setScore(newScore);
   };
 
   return (
     <div className="knowledge-test">
       <div className="book-container">
-        {currentQuestions.map((q, index) => (
-          <div key={index} className="question-container">
-            <p>{q.question}</p>
-            {q.options.map((option, idx) => (
-              <label key={idx}>
-                <input
-                  type="radio"
-                  name={q.question}
-                  value={option}
-                  checked={selectedAnswers[q.question] === option}
-                  onChange={() => handleAnswerChange(q.question, option)}
-                  disabled={selectedAnswers[q.question] !== undefined}
-                />
-                {option}
-              </label>
-            ))}
-          </div>
-        ))}
-      </div>
-      <div className="navigation-buttons">
+        <div className="container">
+        
+          {currentQuestions.map((q, index) => (
+            <div key={index} className="question-container">
+              <p>{q.question}</p>
+              {q.options.map((option, idx) => (
+                <label key={idx}>
+                  <input
+                    type="radio"
+                    name={`question-${q.id}`}
+                    value={option}
+                    checked={selectedAnswers[q.id] === option}
+                    onChange={() => handleAnswerChange(q.id, option)}
+                    disabled={selectedAnswers[q.id] !== undefined}
+                  />
+                  {option}
+                </label>
+              ))}
+            </div>
+          ))}
+        </div>
+        <div className="navigation-buttons">
         {currentPage > 0 && <button onClick={handlePrevPage}>Previous</button>}
         {endIndex < questions.length && <button onClick={handleNextPage}>Next</button>}
         {endIndex >= questions.length && <button onClick={handleSubmit}>Submit</button>}
       </div>
+      </div>
+    
+      {score !== null && <div className="score-display">Your score is {score}</div>}
     </div>
   );
 };

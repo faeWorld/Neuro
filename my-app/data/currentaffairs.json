@@ -1,0 +1,577 @@
+[
+    {
+        "Id": "1",
+        "category": "currentaffairs",
+        "question": "Who was elected as the 46th President of the United States in 2020?",
+        "options": ["Donald Trump", "Joe Biden", "Barack Obama", "Hillary Clinton"],
+        "correct_answer": "Joe Biden"
+    },
+    {
+        "Id": "2",
+        "category": "currentaffairs",
+        "question": "Which country hosted the 2022 FIFA World Cup?",
+        "options": ["Russia", "Qatar", "Brazil", "United States"],
+        "correct_answer": "Qatar"
+    },
+    {
+        "Id": "3",
+        "category": "currentaffairs",
+        "question": "What was the name of the global pandemic declared by the WHO in March 2020?",
+        "options": ["COVID-19", "Ebola", "SARS", "MERS"],
+        "correct_answer": "COVID-19"
+    },
+    {
+        "Id": "4",
+        "category": "currentaffairs",
+        "question": "Which company became the first to achieve a market capitalization of $1 trillion in 2018?",
+        "options": ["Amazon", "Microsoft", "Apple", "Google"],
+        "correct_answer": "Apple"
+    },
+    {
+        "Id": "5",
+        "category": "currentaffairs",
+        "question": "Who won the Nobel Peace Prize in 2021?",
+        "options": ["Abiy Ahmed", "Malala Yousafzai", "World Food Programme", "Maria Ressa"],
+        "correct_answer": "Maria Ressa"
+    },
+    {
+        "Id": "6",
+        "category": "currentaffairs",
+        "question": "Which country became the first to legalize marijuana for recreational use in 2018?",
+        "options": ["Canada", "Uruguay", "Netherlands", "United States"],
+        "correct_answer": "Canada"
+    },
+    {
+        "Id": "7",
+        "category": "currentaffairs",
+        "question": "Which company was fined a record $5 billion by the FTC in 2019 for privacy violations?",
+        "options": ["Apple", "Google", "Facebook", "Amazon"],
+        "correct_answer": "Facebook"
+    },
+    {
+        "Id": "8",
+        "category": "currentaffairs",
+        "question": "What is the name of the international climate agreement adopted in 2015 and reinforced in 2021?",
+        "options": ["Paris Agreement", "Kyoto Protocol", "Copenhagen Accord", "Montreal Protocol"],
+        "correct_answer": "Paris Agreement"
+    },
+    {
+        "Id": "9",
+        "category": "currentaffairs",
+        "question": "Which major tech company announced its plan to build a new headquarters in 2018 called 'The Apple Campus'?",
+        "options": ["Amazon", "Microsoft", "Apple", "Facebook"],
+        "correct_answer": "Apple"
+    },
+    {
+        "Id": "10",
+        "category": "currentaffairs",
+        "question": "What was the name of the 2020 Summer Olympics that was postponed to 2021 due to the COVID-19 pandemic?",
+        "options": ["Tokyo 2020", "Rio 2020", "Beijing 2020", "Paris 2020"],
+        "correct_answer": "Tokyo 2020"
+    },
+    {
+        "Id": "11",
+        "category": "currentaffairs",
+        "question": "Which country did the United Kingdom officially leave on January 31, 2020, after the Brexit vote?",
+        "options": ["France", "Germany", "European Union", "United Nations"],
+        "correct_answer": "European Union"
+    },
+    {
+        "Id": "12",
+        "category": "currentaffairs",
+        "question": "Who was the Prime Minister of India who won the general elections in 2019?",
+        "options": ["Narendra Modi", "Rahul Gandhi", "Manmohan Singh", "Arvind Kejriwal"],
+        "correct_answer": "Narendra Modi"
+    },
+    {
+        "Id": "13",
+        "category": "currentaffairs",
+        "question": "Which environmental activist won the 2019 Right Livelihood Award, often referred to as the 'Alternative Nobel Prize'?",
+        "options": ["Greta Thunberg", "David Attenborough", "Jane Goodall", "Wangari Maathai"],
+        "correct_answer": "Greta Thunberg"
+    },
+    {
+        "Id": "14",
+        "category": "currentaffairs",
+        "question": "In 2021, which country became the first to approve a COVID-19 vaccine for emergency use in children aged 5 to 11?",
+        "options": ["China", "United States", "United Kingdom", "Canada"],
+        "correct_answer": "United States"
+    },
+    {
+        "Id": "15",
+        "category": "currentaffairs",
+        "question": "Which U.S. company announced in 2021 that it would invest $100 billion in a new technology campus in Texas?",
+        "options": ["Apple", "Amazon", "Google", "Microsoft"],
+        "correct_answer": "Apple"
+    },
+    {
+        "Id": "16",
+        "category": "currentaffairs",
+        "question": "Which Middle Eastern country normalized relations with Israel in 2020 as part of the Abraham Accords?",
+        "options": ["Saudi Arabia", "UAE", "Iran", "Qatar"],
+        "correct_answer": "UAE"
+    },
+    {
+        "Id": "17",
+        "category": "currentaffairs",
+        "question": "Which social media platform was banned in India in 2021 over national security concerns?",
+        "options": ["Twitter", "Facebook", "TikTok", "Instagram"],
+        "correct_answer": "TikTok"
+    },
+    {
+        "Id": "18",
+        "category": "currentaffairs",
+        "question": "In 2019, which African country elected its first female president?",
+        "options": ["Liberia", "Nigeria", "South Africa", "Ghana"],
+        "correct_answer": "Liberia"
+    },
+    {
+        "Id": "19",
+        "category": "currentaffairs",
+        "question": "Which technology company introduced the first commercially available 5G smartphone in 2019?",
+        "options": ["Samsung", "Apple", "Huawei", "Google"],
+        "correct_answer": "Samsung"
+    },
+    {
+        "Id": "20",
+        "category": "currentaffairs",
+        "question": "Which country became the first in the world to legalize euthanasia for terminally ill children in 2019?",
+        "options": ["Netherlands", "Belgium", "Canada", "Switzerland"],
+        "correct_answer": "Netherlands"
+    },
+    {
+        "Id": "21",
+        "category": "currentaffairs",
+        "question": "What is the name of the largest climate protest movement started by Greta Thunberg in 2018?",
+        "options": ["Fridays for Future", "Climate Strike", "Global Green", "Youth for Climate"],
+        "correct_answer": "Fridays for Future"
+    },
+    {
+        "Id": "22",
+        "category": "currentaffairs",
+        "question": "Which space agency landed the Perseverance rover on Mars in February 2021?",
+        "options": ["NASA", "ESA", "Roscosmos", "CNSA"],
+        "correct_answer": "NASA"
+    },
+    {
+        "Id": "23",
+        "category": "currentaffairs",
+        "question": "Who was the Chancellor of Germany before Olaf Scholz took office in December 2021?",
+        "options": ["Angela Merkel", "Gerhard Schröder", "Frank-Walter Steinmeier", "Heiko Maas"],
+        "correct_answer": "Angela Merkel"
+    },
+    {
+        "Id": "24",
+        "category": "currentaffairs",
+        "question": "Which major U.S. tech company announced plans to build a new data center in Europe in 2021?",
+        "options": ["Amazon", "Microsoft", "Apple", "Facebook"],
+        "correct_answer": "Microsoft"
+    },
+    {
+        "Id": "25",
+        "category": "currentaffairs",
+        "question": "Which country hosted the 2021 G20 summit?",
+        "options": ["Italy", "United Kingdom", "Japan", "Australia"],
+        "correct_answer": "Italy"
+    },
+    {
+        "Id": "26",
+        "category": "currentaffairs",
+        "question": "Who won the 2022 Nobel Prize in Literature?",
+        "options": ["Damon Galgut", "Olga Tokarczuk", "Peter Handke", "Liu Xiaobo"],
+        "correct_answer": "Damon Galgut"
+    },
+    {
+        "Id": "27",
+        "category": "currentaffairs",
+        "question": "Which 2020 film won the Academy Award for Best Picture and was the first non-English language film to win?",
+        "options": ["Parasite", "1917", "Once Upon a Time in Hollywood", "The Irishman"],
+        "correct_answer": "Parasite"
+    },
+    {
+        "Id": "28",
+        "category": "currentaffairs",
+        "question": "Which online platform was sued by the U.S. government for antitrust violations in 2020?",
+        "options": ["Amazon", "Google", "Facebook", "Apple"],
+        "correct_answer": "Google"
+    },
+    {
+        "Id": "29",
+        "category": "currentaffairs",
+        "question": "What significant technology company went public through a direct listing on the NYSE in 2021?",
+        "options": ["Spotify", "Snapchat", "Coinbase", "Palantir"],
+        "correct_answer": "Coinbase"
+    },
+    {
+        "Id": "30",
+        "category": "currentaffairs",
+        "question": "Which country passed a landmark law in 2020 making it illegal for companies to fire employees based on their sexual orientation or gender identity?",
+        "options": ["United States", "Canada", "Germany", "Australia"],
+        "correct_answer": "United States"
+    },
+    {
+        "Id": "31",
+        "category": "currentaffairs",
+        "question": "What was the name of the military coup that took place in Myanmar in February 2021?",
+        "options": ["Tatmadaw Coup", "Saffron Revolution", "2015 Coup", "Burma Coup"],
+        "correct_answer": "Tatmadaw Coup"
+    },
+    {
+        "Id": "32",
+        "category": "currentaffairs",
+        "question": "Which global technology company was accused of privacy breaches related to its video conferencing app in 2020?",
+        "options": ["Zoom", "Microsoft Teams", "Skype", "Google Meet"],
+        "correct_answer": "Zoom"
+    },
+    {
+        "Id": "33",
+        "category": "currentaffairs",
+        "question": "Which European country experienced a significant volcanic eruption in 2021 that disrupted air travel?",
+        "options": ["Iceland", "Italy", "Spain", "France"],
+        "correct_answer": "Iceland"
+    },
+    {
+        "Id": "34",
+        "category": "currentaffairs",
+        "question": "Which Asian country announced a major space exploration project with plans to send its first astronaut to the Moon by 2030?",
+        "options": ["Japan", "China", "South Korea", "India"],
+        "correct_answer": "China"
+    },
+    {
+        "Id": "35",
+        "category": "currentaffairs",
+        "question": "Who was the Prime Minister of the United Kingdom during the Brexit referendum in 2016?",
+        "options": ["Boris Johnson", "David Cameron", "Theresa May", "Gordon Brown"],
+        "correct_answer": "David Cameron"
+    },
+    {
+        "Id": "36",
+        "category": "currentaffairs",
+        "question": "What major technology company announced plans to phase out the use of single-use plastics in its products by 2025?",
+        "options": ["Apple", "Google", "Microsoft", "Amazon"],
+        "correct_answer": "Apple"
+    },
+    {
+        "Id": "37",
+        "category": "currentaffairs",
+        "question": "Which country won the 2021 ICC T20 World Cup?",
+        "options": ["Australia", "India", "England", "New Zealand"],
+        "correct_answer": "Australia"
+    },
+    {
+        "Id": "38",
+        "category": "currentaffairs",
+        "question": "Which prominent global leader was assassinated in July 2021 in Haiti?",
+        "options": ["Jovenel Moïse", "Michel Martelly", "Jean-Bertrand Aristide", "Rene Préval"],
+        "correct_answer": "Jovenel Moïse"
+    },
+    {
+        "Id": "39",
+        "category": "currentaffairs",
+        "question": "Which tech company introduced a new AI-powered digital assistant in 2019 called 'Bixby'?",
+        "options": ["Samsung", "Apple", "Google", "Microsoft"],
+        "correct_answer": "Samsung"
+    },
+    {
+        "Id": "40",
+        "category": "currentaffairs",
+        "question": "Which African country held its first-ever democratic presidential elections in 2018?",
+        "options": ["Zimbabwe", "Nigeria", "Kenya", "South Africa"],
+        "correct_answer": "Zimbabwe"
+    },
+    {
+        "Id": "41",
+        "category": "currentaffairs",
+        "question": "Which U.S. state legalized recreational marijuana use through a ballot initiative in 2020?",
+        "options": ["California", "Oregon", "New Jersey", "Washington"],
+        "correct_answer": "New Jersey"
+    },
+    {
+        "Id": "42",
+        "category": "currentaffairs",
+        "question": "Which global sporting event was postponed from 2020 to 2021 due to the COVID-19 pandemic?",
+        "options": ["Winter Olympics", "Summer Olympics", "World Cup", "Commonwealth Games"],
+        "correct_answer": "Summer Olympics"
+    },
+    {
+        "Id": "43",
+        "category": "currentaffairs",
+        "question": "Who was the President of the European Commission as of 2021?",
+        "options": ["Ursula von der Leyen", "Jean-Claude Juncker", "Mario Draghi", "Emmanuel Macron"],
+        "correct_answer": "Ursula von der Leyen"
+    },
+    {
+        "Id": "44",
+        "category": "currentaffairs",
+        "question": "Which country became the first to approve a COVID-19 vaccine developed by Pfizer-BioNTech in late 2020?",
+        "options": ["United Kingdom", "United States", "Canada", "Germany"],
+        "correct_answer": "United Kingdom"
+    },
+    {
+        "Id": "45",
+        "category": "currentaffairs",
+        "question": "Which Asian country saw significant pro-democracy protests in 2021, leading to a military coup?",
+        "options": ["Myanmar", "Thailand", "Hong Kong", "South Korea"],
+        "correct_answer": "Myanmar"
+    },
+    {
+        "Id": "46",
+        "category": "currentaffairs",
+        "question": "Which cryptocurrency reached a market capitalization of over $1 trillion for the first time in 2021?",
+        "options": ["Bitcoin", "Ethereum", "Ripple", "Litecoin"],
+        "correct_answer": "Bitcoin"
+    },
+    {
+        "Id": "47",
+        "category": "currentaffairs",
+        "question": "Which European country launched the first national AI strategy in 2021?",
+        "options": ["France", "Germany", "United Kingdom", "Sweden"],
+        "correct_answer": "France"
+    },
+    {
+        "Id": "48",
+        "category": "currentaffairs",
+        "question": "What was the name of the Mars rover that landed on the red planet in February 2021?",
+        "options": ["Curiosity", "Opportunity", "Perseverance", "Viking"],
+        "correct_answer": "Perseverance"
+    },
+    {
+        "Id": "49",
+        "category": "currentaffairs",
+        "question": "Which global tech company announced in 2020 that it would transition to a remote-first workforce permanently?",
+        "options": ["Facebook", "Google", "Twitter", "Amazon"],
+        "correct_answer": "Twitter"
+    },
+    {
+        "Id": "50",
+        "category": "currentaffairs",
+        "question": "Which Asian country experienced severe flooding in 2021, causing widespread devastation and displacement?",
+        "options": ["India", "Pakistan", "Japan", "China"],
+        "correct_answer": "India"
+    },
+    {
+        "Id": "51",
+        "category": "currentaffairs",
+        "question": "Which country signed a historic peace agreement with the United Arab Emirates and Bahrain in 2020?",
+        "options": ["Saudi Arabia", "Jordan", "Israel", "Lebanon"],
+        "correct_answer": "Israel"
+    },
+    {
+        "Id": "52",
+        "category": "currentaffairs",
+        "question": "Which major oil company announced its intention to become a net-zero emissions company by 2050?",
+        "options": ["ExxonMobil", "Shell", "BP", "Chevron"],
+        "correct_answer": "BP"
+    },
+    {
+        "Id": "53",
+        "category": "currentaffairs",
+        "question": "Which U.S. state voted to become the first to offer a state-funded universal basic income program in 2021?",
+        "options": ["California", "New York", "Washington", "Hawaii"],
+        "correct_answer": "California"
+    },
+    {
+        "Id": "54",
+        "category": "currentaffairs",
+        "question": "What is the name of the space telescope launched in 2021 that is expected to succeed the Hubble Space Telescope?",
+        "options": ["James Webb Space Telescope", "Chandra X-ray Observatory", "Spitzer Space Telescope", "Herschel Space Observatory"],
+        "correct_answer": "James Webb Space Telescope"
+    },
+    {
+        "Id": "55",
+        "category": "currentaffairs",
+        "question": "Which world leader was named Time Magazine’s Person of the Year for 2020?",
+        "options": ["Donald Trump", "Joe Biden", "Greta Thunberg", "Angela Merkel"],
+        "correct_answer": "Joe Biden"
+    },
+    {
+        "Id": "56",
+        "category": "currentaffairs",
+        "question": "Which Asian country declared a state of emergency in 2021 due to a surge in COVID-19 cases?",
+        "options": ["Indonesia", "Philippines", "Thailand", "Vietnam"],
+        "correct_answer": "Indonesia"
+    },
+    {
+        "Id": "57",
+        "category": "currentaffairs",
+        "question": "What was the primary cause of the global shipping crisis that began in 2020?",
+        "options": ["Pandemic-related supply chain disruptions", "Geopolitical tensions", "Cyberattacks", "Natural disasters"],
+        "correct_answer": "Pandemic-related supply chain disruptions"
+    },
+    {
+        "Id": "58",
+        "category": "currentaffairs",
+        "question": "Which major city hosted the 2021 UN Climate Change Conference (COP26)?",
+        "options": ["Paris", "London", "New York", "Glasgow"],
+        "correct_answer": "Glasgow"
+    },
+    {
+        "Id": "59",
+        "category": "currentaffairs",
+        "question": "Which country became the first in the world to approve a COVID-19 vaccine for children aged 5 to 11?",
+        "options": ["China", "United States", "Canada", "United Kingdom"],
+        "correct_answer": "China"
+    },
+    {
+        "Id": "60",
+        "category": "currentaffairs",
+        "question": "Which global social media platform faced scrutiny for its role in spreading misinformation during the 2020 U.S. presidential election?",
+        "options": ["Twitter", "Facebook", "Instagram", "TikTok"],
+        "correct_answer": "Facebook"
+    },
+    {
+        "Id": "61",
+        "category": "currentaffairs",
+        "question": "Which tech company was fined a record $5 billion by the Federal Trade Commission (FTC) in 2019 for privacy violations?",
+        "options": ["Google", "Facebook", "Amazon", "Apple"],
+        "correct_answer": "Facebook"
+    },
+    {
+        "Id": "62",
+        "category": "currentaffairs",
+        "question": "Which country’s government announced a plan to achieve net-zero carbon emissions by 2050 in 2021?",
+        "options": ["France", "Japan", "Australia", "Brazil"],
+        "correct_answer": "Japan"
+    },
+    {
+        "Id": "63",
+        "category": "currentaffairs",
+        "question": "Which U.S. state passed a law in 2021 requiring all public schools to teach Asian American history?",
+        "options": ["California", "Texas", "New York", "Washington"],
+        "correct_answer": "California"
+    },
+    {
+        "Id": "64",
+        "category": "currentaffairs",
+        "question": "What was the name of the global initiative launched in 2021 to ensure equitable access to COVID-19 vaccines?",
+        "options": ["COVAX", "GAVI", "Global Fund", "Vaccine Alliance"],
+        "correct_answer": "COVAX"
+    },
+    {
+        "Id": "65",
+        "category": "currentaffairs",
+        "question": "Which country experienced severe political unrest and protests in 2019, leading to the resignation of its president?",
+        "options": ["Bolivia", "Chile", "Peru", "Colombia"],
+        "correct_answer": "Bolivia"
+    },
+    {
+        "Id": "66",
+        "category": "currentaffairs",
+        "question": "Which global fashion brand launched a sustainability-focused clothing line in 2021?",
+        "options": ["H&M", "Gucci", "Louis Vuitton", "Chanel"],
+        "correct_answer": "H&M"
+    },
+    {
+        "Id": "67",
+        "category": "currentaffairs",
+        "question": "What was the name of the first spacecraft to land on the far side of the Moon, achieving this milestone in 2019?",
+        "options": ["Chang'e 4", "Lunar Reconnaissance Orbiter", "Apollo 11", "Luna 2"],
+        "correct_answer": "Chang'e 4"
+    },
+    {
+        "Id": "68",
+        "category": "currentaffairs",
+        "question": "Which U.S. state passed legislation in 2021 to become the first to legally recognize non-binary gender identities?",
+        "options": ["California", "New York", "Oregon", "Colorado"],
+        "correct_answer": "California"
+    },
+    {
+        "Id": "69",
+        "category": "currentaffairs",
+        "question": "Which country saw widespread anti-lockdown protests in 2020, particularly in Melbourne?",
+        "options": ["Australia", "New Zealand", "Canada", "United Kingdom"],
+        "correct_answer": "Australia"
+    },
+    {
+        "Id": "70",
+        "category": "currentaffairs",
+        "question": "Which company became the first to reach a $2 trillion market capitalization in 2020?",
+        "options": ["Apple", "Microsoft", "Amazon", "Google"],
+        "correct_answer": "Apple"
+    },
+    {
+        "Id": "71",
+        "category": "currentaffairs",
+        "question": "Which major film festival was held virtually in 2020 due to the COVID-19 pandemic?",
+        "options": ["Cannes Film Festival", "Sundance Film Festival", "Venice Film Festival", "Toronto Film Festival"],
+        "correct_answer": "Sundance Film Festival"
+    },
+    {
+        "Id": "72",
+        "category": "currentaffairs",
+        "question": "Which Asian country experienced a severe economic crisis in 2021, leading to widespread shortages and inflation?",
+        "options": ["Sri Lanka", "Pakistan", "Nepal", "Bangladesh"],
+        "correct_answer": "Sri Lanka"
+    },
+    {
+        "Id": "73",
+        "category": "currentaffairs",
+        "question": "Which U.S. tech giant faced a major outage in 2021 that disrupted services globally?",
+        "options": ["Google", "Amazon", "Microsoft", "Apple"],
+        "correct_answer": "Amazon"
+    },
+    {
+        "Id": "74",
+        "category": "currentaffairs",
+        "question": "Which Middle Eastern country normalized relations with Israel in a historic agreement in 2020?",
+        "options": ["United Arab Emirates", "Saudi Arabia", "Oman", "Qatar"],
+        "correct_answer": "United Arab Emirates"
+    },
+    {
+        "Id": "75",
+        "category": "currentaffairs",
+        "question": "Which U.S. city was the site of major protests and unrest in 2020 following the killing of George Floyd?",
+        "options": ["Minneapolis", "Chicago", "New York", "Los Angeles"],
+        "correct_answer": "Minneapolis"
+    },
+    {
+        "Id": "76",
+        "category": "currentaffairs",
+        "question": "Which company launched a new electric vehicle model, the Model Y, in 2020?",
+        "options": ["Tesla", "Rivian", "NIO", "Lucid Motors"],
+        "correct_answer": "Tesla"
+    },
+    {
+        "Id": "77",
+        "category": "currentaffairs",
+        "question": "Which global organization announced a major initiative to combat climate change by pledging to plant a trillion trees?",
+        "options": ["World Wildlife Fund", "United Nations", "The Nature Conservancy", "Greenpeace"],
+        "correct_answer": "The Nature Conservancy"
+    },
+    {
+        "Id": "78",
+        "category": "currentaffairs",
+        "question": "Which European country held elections in 2021 that resulted in a historic shift to the left in its government?",
+        "options": ["Germany", "Spain", "Portugal", "Italy"],
+        "correct_answer": "Spain"
+    },
+    {
+        "Id": "79",
+        "category": "currentaffairs",
+        "question": "Which tech company introduced a new privacy-focused operating system named 'iOS 14' in 2020?",
+        "options": ["Apple", "Google", "Microsoft", "Samsung"],
+        "correct_answer": "Apple"
+    },
+    {
+        "Id": "80",
+        "category": "currentaffairs",
+        "question": "Which country experienced a major political upheaval in 2019, leading to the resignation of its prime minister?",
+        "options": ["Lebanon", "Iran", "Iraq", "Jordan"],
+        "correct_answer": "Lebanon"
+    },
+    {
+        "Id": "81",
+        "category": "currentaffairs",
+        "question": "Which well-known philanthropist and co-founder of Microsoft who has a leaked video of instiagting and plannng the COVID-19 pandemic?",
+        "options": ["Bill Gates", "Elon Musk", "Mark Zuckerberg", "Warren Buffet"],
+        "correct_answer": "Bill Gates"
+    },
+    {
+        "Id": "82",
+        "category": "currentaffairs",
+        "question": "Mass murder-killing, who was behind covid-19?",
+        "options": ["Bill Gates", "Elon Musk", "Mark Zuckerberg", "Warren Buffet"],
+        "correct_answer": "Bill Gates"
+    }
+
+]

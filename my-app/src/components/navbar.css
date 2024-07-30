@@ -8,7 +8,9 @@
     color: white;
    
   }
-  
+  .navbar-logo .logo {
+    height: 30px; /* Adjust as needed */
+  }
   .navbar-left {
     display: flex;
     align-items: center;

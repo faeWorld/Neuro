@@ -1,0 +1,562 @@
+[
+    {
+        "Id": "1",
+        "category": "entertainment",
+        "question": "Which year did Michael Jackson pass away?",
+        "options": ["2009", "2010", "2008", "2011"],
+        "correct_answer": "2009"
+    },
+    {
+        "Id": "2",
+        "category": "entertainment",
+        "question": "Which member of the Kardashian family is known for her successful makeup line, KKW Beauty?",
+        "options": ["Kim Kardashian", "Kourtney Kardashian", "Khloe Kardashian", "Caitlyn Jenner"],
+        "correct_answer": "Kim Kardashian"
+    },
+    {
+        "Id": "3",
+        "category": "entertainment",
+        "question": "What is the name of the reality TV show that follows the lives of the Kardashian-Jenner family?",
+        "options": ["Keeping Up with the Kardashians", "The Real Housewives", "Jersey Shore", "The Osbournes"],
+        "correct_answer": "Keeping Up with the Kardashians"
+    },
+    {
+        "Id": "4",
+        "category": "entertainment",
+        "question": "Which Netflix series, released in 2020, became a major hit and is centered around a mysterious game?",
+        "options": ["Stranger Things", "The Queen's Gambit", "Bridgerton", "Money Heist"],
+        "correct_answer": "The Queen's Gambit"
+    },
+    {
+        "Id": "5",
+        "category": "entertainment",
+        "question": "Which 2021 Netflix series is set in a dystopian future where people participate in deadly games for money?",
+        "options": ["Squid Game", "Lupin", "Ozark", "Money Heist"],
+        "correct_answer": "Squid Game"
+    },
+    {
+        "Id": "6",
+        "category": "entertainment",
+        "question": "What was Michael Jackson’s most famous album, released in 1982?",
+        "options": ["Thriller", "Bad", "Dangerous", "HIStory"],
+        "correct_answer": "Thriller"
+    },
+    {
+        "Id": "7",
+        "category": "entertainment",
+        "question": "Which Kardashian sister launched the clothing brand Good American?",
+        "options": ["Khloe Kardashian", "Kim Kardashian", "Kourtney Kardashian", "Kylie Jenner"],
+        "correct_answer": "Khloe Kardashian"
+    },
+    {
+        "Id": "8",
+        "category": "entertainment",
+        "question": "Which 2022 Netflix series revolves around the life of the famous British royal family?",
+        "options": ["The Crown", "Bridgerton", "Queen Charlotte", "The Last Kingdom"],
+        "correct_answer": "The Crown"
+    },
+    {
+        "Id": "9",
+        "category": "entertainment",
+        "question": "Which Michael Jackson song is known for its iconic music video featuring a famous zombie dance?",
+        "options": ["Thriller", "Beat It", "Billie Jean", "Bad"],
+        "correct_answer": "Thriller"
+    },
+    {
+        "Id": "10",
+        "category": "entertainment",
+        "question": "Which Netflix series features a group of friends who discover supernatural occurrences in their small town?",
+        "options": ["Stranger Things", "Dark", "The Witcher", "Narcos"],
+        "correct_answer": "Stranger Things"
+    },
+    {
+        "Id": "11",
+        "category": "entertainment",
+        "question": "Which Kardashian-Jenner family member is known for her beauty empire and reality TV career?",
+        "options": ["Kylie Jenner", "Kim Kardashian", "Kourtney Kardashian", "Caitlyn Jenner"],
+        "correct_answer": "Kylie Jenner"
+    },
+    {
+        "Id": "12",
+        "category": "entertainment",
+        "question": "What year did Netflix first become available in the UK and Ireland?",
+        "options": ["2012", "2010", "2013", "2015"],
+        "correct_answer": "2012"
+    },
+    {
+        "Id": "13",
+        "category": "entertainment",
+        "question": "Which Michael Jackson album features the hit single 'Billie Jean'?",
+        "options": ["Thriller", "Bad", "Dangerous", "HIStory"],
+        "correct_answer": "Thriller"
+    },
+    {
+        "Id": "14",
+        "category": "entertainment",
+        "question": "Which Netflix show, premiering in 2021, follows a gentleman thief who leads a life of crime while evading authorities?",
+        "options": ["Lupin", "Money Heist", "Ozark", "Narcos"],
+        "correct_answer": "Lupin"
+    },
+    {
+        "Id": "15",
+        "category": "entertainment",
+        "question": "Which Netflix documentary series, released in 2020, chronicles the life of the controversial tiger breeder Joe Exotic?",
+        "options": ["Tiger King", "Making a Murderer", "The Last Dance", "Wild Wild Country"],
+        "correct_answer": "Tiger King"
+    },
+    {
+        "Id": "16",
+        "category": "entertainment",
+        "question": "What is the name of Kim Kardashian’s shapewear brand?",
+        "options": ["Skims", "Good American", "Kylie Cosmetics", "Fenty"],
+        "correct_answer": "Skims"
+    },
+    {
+        "Id": "17",
+        "category": "entertainment",
+        "question": "Which Netflix show is centered around the lives of a group of high school students who navigate the challenges of adolescence?",
+        "options": ["Sex Education", "Euphoria", "On My Block", "Never Have I Ever"],
+        "correct_answer": "Sex Education"
+    },
+    {
+        "Id": "18",
+        "category": "entertainment",
+        "question": "Which Michael Jackson music video was the first to feature a narrative storyline and a large-scale dance sequence?",
+        "options": ["Thriller", "Beat It", "Bad", "Smooth Criminal"],
+        "correct_answer": "Thriller"
+    },
+    {
+        "Id": "19",
+        "category": "entertainment",
+        "question": "Which 2021 Netflix series is a thriller about a detective investigating a series of bizarre murders in a small town?",
+        "options": ["Midnight Mass", "The Haunting of Bly Manor", "The Queen's Gambit", "Dark"],
+        "correct_answer": "Midnight Mass"
+    },
+    {
+        "Id": "20",
+        "category": "entertainment",
+        "question": "Which Kardashian-Jenner family member is known for her role in the reality TV show 'The Simple Life'?",
+        "options": ["Paris Hilton", "Kim Kardashian", "Kourtney Kardashian", "Khloe Kardashian"],
+        "correct_answer": "Paris Hilton"
+    },
+    {
+        "Id": "21",
+        "category": "entertainment",
+        "question": "Which 2020 Netflix series is a dark comedy that features a character trying to solve a murder while navigating personal issues?",
+        "options": ["Dead to Me", "The Crown", "Ozark", "Money Heist"],
+        "correct_answer": "Dead to Me"
+    },
+    {
+        "Id": "22",
+        "category": "entertainment",
+        "question": "Which famous pop star was known as the 'King of Pop' and released the album 'Bad' in 1987?",
+        "options": ["Michael Jackson", "Prince", "Madonna", "Elton John"],
+        "correct_answer": "Michael Jackson"
+    },
+    {
+        "Id": "23",
+        "category": "entertainment",
+        "question": "Which Netflix series, released in 2018, follows the story of a teenage girl who uses a series of tapes to explain the reasons for her suicide?",
+        "options": ["13 Reasons Why", "Stranger Things", "The OA", "Ozark"],
+        "correct_answer": "13 Reasons Why"
+    },
+    {
+        "Id": "24",
+        "category": "entertainment",
+        "question": "Which Kardashian is known for her role as a model and businesswoman and has a line of activewear?",
+        "options": ["Kourtney Kardashian", "Kim Kardashian", "Khloe Kardashian", "Kylie Jenner"],
+        "correct_answer": "Kourtney Kardashian"
+    },
+    {
+        "Id": "25",
+        "category": "entertainment",
+        "question": "Which Netflix series set in the 1980s follows a group of kids as they encounter supernatural events in their town?",
+        "options": ["Stranger Things", "The Witcher", "The Umbrella Academy", "Dark"],
+        "correct_answer": "Stranger Things"
+    },
+    {
+        "Id": "26",
+        "category": "entertainment",
+        "question": "Which Michael Jackson song features the famous line 'You know I'm bad, I'm bad, you know it'?",
+        "options": ["Bad", "Billie Jean", "Beat It", "Thriller"],
+        "correct_answer": "Bad"
+    },
+    {
+        "Id": "27",
+        "category": "entertainment",
+        "question": "Which Netflix drama series follows a group of five adopted siblings dealing with supernatural abilities?",
+        "options": ["The Umbrella Academy", "The Queen's Gambit", "The Haunting of Hill House", "Dark"],
+        "correct_answer": "The Umbrella Academy"
+    },
+    {
+        "Id": "28",
+        "category": "entertainment",
+        "question": "Which famous pop star released the album 'Dangerous' in 1991 and is known for his unique dance moves?",
+        "options": ["Michael Jackson", "Prince", "Madonna", "George Michael"],
+        "correct_answer": "Michael Jackson"
+    },
+    {
+        "Id": "29",
+        "category": "entertainment",
+        "question": "Which Netflix show focuses on the story of a young woman who becomes a chess prodigy?",
+        "options": ["The Queen's Gambit", "Bridgerton", "Ozark", "The Crown"],
+        "correct_answer": "The Queen's Gambit"
+    },
+    {
+        "Id": "30",
+        "category": "entertainment",
+        "question": "Which Kardashian-Jenner family member is known for her entrepreneurial ventures and has a skincare line called 'Kylie Skin'?",
+        "options": ["Kylie Jenner", "Kim Kardashian", "Khloe Kardashian", "Kourtney Kardashian"],
+        "correct_answer": "Kylie Jenner"
+    },
+    {
+        "Id": "31",
+        "category": "entertainment",
+        "question": "Which K-pop group is known for their hit songs 'Dynamite' and 'Butter'?",
+        "options": ["BTS", "Blackpink", "EXO", "Red Velvet"],
+        "correct_answer": "BTS"
+    },
+    {
+        "Id": "32",
+        "category": "entertainment",
+        "question": "What year is considered the start of the modern K-pop era with the debut of the group Seo Taiji and Boys?",
+        "options": ["1992", "2000", "1995", "2005"],
+        "correct_answer": "1992"
+    },
+    {
+        "Id": "33",
+        "category": "entertainment",
+        "question": "Which social media platform is known for its algorithm that promotes viral short-form video content, often influencing pop culture trends?",
+        "options": ["Instagram", "TikTok", "YouTube", "Snapchat"],
+        "correct_answer": "TikTok"
+    },
+    {
+        "Id": "34",
+        "category": "entertainment",
+        "question": "Which famous fashion designer is known for creating the 'little black dress' and revolutionizing women's fashion in the 20th century?",
+        "options": ["Coco Chanel", "Versace", "Gucci", "Louis Vuitton"],
+        "correct_answer": "Coco Chanel"
+    },
+    {
+        "Id": "35",
+        "category": "entertainment",
+        "question": "What term is used to describe the blending of entertainment and fashion, where celebrities and designers collaborate on exclusive collections?",
+        "options": ["Celebrity Endorsement", "Fashion Fusion", "Entertainment Collaboration", "Fashion Partnership"],
+        "correct_answer": "Fashion Fusion"
+    },
+    {
+        "Id": "36",
+        "category": "entertainment",
+        "question": "Which entertainment industry sector has seen significant growth with the rise of streaming services, leading to a shift in how content is consumed?",
+        "options": ["Music", "Television", "Film", "Theatre"],
+        "correct_answer": "Television"
+    },
+    {
+        "Id": "37",
+        "category": "entertainment",
+        "question": "What is the primary factor that TikTok's algorithm uses to recommend videos to users based on their preferences?",
+        "options": ["User Interaction", "Video Length", "Trending Topics", "Creator's Follower Count"],
+        "correct_answer": "User Interaction"
+    },
+    {
+        "Id": "38",
+        "category": "entertainment",
+        "question": "Which 2019 film directed by Bong Joon-ho won the Academy Award for Best Picture and is known for its social commentary on class divide?",
+        "options": ["Parasite", "Joker", "1917", "Once Upon a Time in Hollywood"],
+        "correct_answer": "Parasite"
+    },
+    {
+        "Id": "39",
+        "category": "entertainment",
+        "question": "What major social norm was influenced by the entertainment industry's portrayal of LGBTQ+ characters and stories in media?",
+        "options": ["Increased Acceptance of LGBTQ+ Rights", "More Gender-Specific Roles", "Decreased Celebrity Influence", "Less Focus on Diversity"],
+        "correct_answer": "Increased Acceptance of LGBTQ+ Rights"
+    },
+    {
+        "Id": "40",
+        "category": "entertainment",
+        "question": "Which of the following is a major trend in the entertainment job sector related to technology and digital media?",
+        "options": ["Virtual Reality Experiences", "Live Stage Performances", "Traditional Film Production", "Manual Editing Techniques"],
+        "correct_answer": "Virtual Reality Experiences"
+    },
+    {
+        "Id": "41",
+        "category": "entertainment",
+        "question": "Which influential pop culture movement is characterized by the widespread adoption of social media influencers and internet celebrities?",
+        "options": ["Internet Celebrity Culture", "Traditional Celebrity Culture", "Print Media Culture", "Niche Subcultures"],
+        "correct_answer": "Internet Celebrity Culture"
+    },
+    {
+        "Id": "42",
+        "category": "entertainment",
+        "question": "Which musical genre, originating in the 1950s, significantly influenced modern pop culture and entertainment with its energetic beats and dance styles?",
+        "options": ["Rock and Roll", "Jazz", "Classical", "Blues"],
+        "correct_answer": "Rock and Roll"
+    },
+    {
+        "Id": "43",
+        "category": "entertainment",
+        "question": "Which platform is known for its algorithm-driven content recommendations that significantly impact popular trends and user engagement?",
+        "options": ["YouTube", "Twitter", "Facebook", "LinkedIn"],
+        "correct_answer": "YouTube"
+    },
+    {
+        "Id": "44",
+        "category": "entertainment",
+        "question": "Which fashion designer is famous for popularizing the concept of 'power dressing' with bold shoulder pads and tailored suits in the 1980s?",
+        "options": ["Gianni Versace", "Donna Karan", "Calvin Klein", "Jean-Paul Gaultier"],
+        "correct_answer": "Donna Karan"
+    },
+    {
+        "Id": "45",
+        "category": "entertainment",
+        "question": "Which streaming platform introduced a subscription model that revolutionized the way audiences access TV shows and movies, starting in the early 2000s?",
+        "options": ["Netflix", "Hulu", "Amazon Prime Video", "Disney+"],
+        "correct_answer": "Netflix"
+    },
+    {
+        "Id": "46",
+        "category": "entertainment",
+        "question": "Which major 2020 entertainment trend involved the production of content from home due to the COVID-19 pandemic?",
+        "options": ["Remote Filming", "Live Streaming Events", "Virtual Concerts", "Social Media Challenges"],
+        "correct_answer": "Remote Filming"
+    },
+    {
+        "Id": "47",
+        "category": "entertainment",
+        "question": "Which major social media platform launched a feature in 2020 that allows users to create and share short videos with music and effects?",
+        "options": ["TikTok", "Instagram Reels", "Snapchat Stories", "YouTube Shorts"],
+        "correct_answer": "TikTok"
+    },
+    {
+        "Id": "48",
+        "category": "entertainment",
+        "question": "What is the term for the phenomenon where social media influencers create trends and promote products that quickly become popular?",
+        "options": ["Influencer Marketing", "Viral Advertising", "Trendsetting", "Social Media Campaigning"],
+        "correct_answer": "Influencer Marketing"
+    },
+    {
+        "Id": "49",
+        "category": "entertainment",
+        "question": "Which fashion event, held annually in New York City, is known for showcasing the latest trends from top designers and attracting celebrities?",
+        "options": ["New York Fashion Week", "Paris Fashion Week", "London Fashion Week", "Milan Fashion Week"],
+        "correct_answer": "New York Fashion Week"
+    },
+    {
+        "Id": "50",
+        "category": "entertainment",
+        "question": "Which musical genre, associated with the rise of pop culture in the 1990s, emphasizes catchy melodies and danceable beats?",
+        "options": ["Pop", "Grunge", "Rap", "Country"],
+        "correct_answer": "Pop"
+    },
+    {
+        "Id": "51",
+        "category": "entertainment",
+        "question": "Which 2021 Netflix show features a comedic take on superhero life, focusing on a dysfunctional family of superheroes?",
+        "options": ["The Umbrella Academy", "The Boys", "Invincible", "The Watchmen"],
+        "correct_answer": "The Umbrella Academy"
+    },
+    {
+        "Id": "52",
+        "category": "entertainment",
+        "question": "Which 2022 entertainment trend involves the use of augmented reality (AR) to enhance live performances and events?",
+        "options": ["Virtual Concerts", "AR Music Experiences", "Interactive Theatre", "Online Gaming"],
+        "correct_answer": "AR Music Experiences"
+    },
+    {
+        "Id": "53",
+        "category": "entertainment",
+        "question": "Which influential fashion designer is known for her contributions to the minimalism movement in the 1990s, characterized by clean lines and simplicity?",
+        "options": ["Calvin Klein", "Tommy Hilfiger", "Marc Jacobs", "Ralph Lauren"],
+        "correct_answer": "Calvin Klein"
+    },
+    {
+        "Id": "54",
+        "category": "entertainment",
+        "question": "Which trend in the entertainment industry involves the creation of content that is easily shareable and creates discussions on social media?",
+        "options": ["Viral Content", "Interactive Media", "Long-Form Content", "Traditional Media"],
+        "correct_answer": "Viral Content"
+    },
+    {
+        "Id": "55",
+        "category": "entertainment",
+        "question": "Which entertainment industry sector focuses on producing live performances such as theatre, concerts, and dance?",
+        "options": ["Live Entertainment", "Film Production", "Television Broadcasting", "Digital Media"],
+        "correct_answer": "Live Entertainment"
+    },
+    {
+        "Id": "56",
+        "category": "entertainment",
+        "question": "Which major social media platform introduced 'Stories,' a feature allowing users to post photos and videos that disappear after 24 hours?",
+        "options": ["Instagram", "Facebook", "Twitter", "LinkedIn"],
+        "correct_answer": "Instagram"
+    },
+    {
+        "Id": "57",
+        "category": "entertainment",
+        "question": "Which entertainment trend has led to a rise in content that features behind-the-scenes looks and personal insights from celebrities and influencers?",
+        "options": ["Reality TV", "Documentary Series", "Personal Vlogs", "Talk Shows"],
+        "correct_answer": "Personal Vlogs"
+    },
+    {
+        "Id": "58",
+        "category": "entertainment",
+        "question": "Which pop culture phenomenon involved fans of a 2019 film contributing to the creation of fan theories and discussions online?",
+        "options": ["Parasite", "Avengers: Endgame", "Joker", "The Lion King"],
+        "correct_answer": "Avengers: Endgame"
+    },
+    {
+        "Id": "59",
+        "category": "entertainment",
+        "question": "Which fashion accessory became a significant trend in the early 2020s, symbolizing both style and sustainability?",
+        "options": ["Reusable Tote Bags", "Designer Sneakers", "Luxury Watches", "Statement Jewelry"],
+        "correct_answer": "Reusable Tote Bags"
+    },
+    {
+        "Id": "60",
+        "category": "entertainment",
+        "question": "Which online platform's algorithm focuses on user engagement metrics such as likes, shares, and comments to recommend trending content?",
+        "options": ["Facebook", "TikTok", "YouTube", "Reddit"],
+        "correct_answer": "TikTok"
+    },
+    {
+        "Id": "61",
+        "category": "entertainment",
+        "question": "Which South Korean girl group is known for their hits 'DDU-DU DDU-DU' and 'How You Like That'?",
+        "options": ["Blackpink", "Twice", "Red Velvet", "ITZY"],
+        "correct_answer": "Blackpink"
+    },
+    {
+        "Id": "62",
+        "category": "entertainment",
+        "question": "Which Netflix drama series is centered around a young woman who becomes a chess prodigy and is based on a novel by Walter Tevis?",
+        "options": ["The Queen's Gambit", "The Crown", "Ozark", "Mindhunter"],
+        "correct_answer": "The Queen's Gambit"
+    },
+    {
+        "Id": "63",
+        "category": "entertainment",
+        "question": "Which 2021 fashion trend focuses on oversized silhouettes and 'relaxed' fits, often seen in streetwear and casual fashion?",
+        "options": ["Oversized Fashion", "Minimalism", "Fast Fashion", "Vintage Revival"],
+        "correct_answer": "Oversized Fashion"
+    },
+    {
+        "Id": "64",
+        "category": "entertainment",
+        "question": "Which app's algorithm is known for its short-form video content and viral dance challenges, significantly shaping internet culture?",
+        "options": ["TikTok", "Instagram", "Snapchat", "YouTube"],
+        "correct_answer": "TikTok"
+    },
+    {
+        "Id": "65",
+        "category": "entertainment",
+        "question": "Which celebrity couple is known for their high-profile media coverage and has a reality TV show documenting their personal lives?",
+        "options": ["Kim Kardashian and Kanye West", "Beyoncé and Jay-Z", "Jennifer Lopez and Alex Rodriguez", "Brad Pitt and Angelina Jolie"],
+        "correct_answer": "Kim Kardashian and Kanye West"
+    },
+    {
+        "Id": "66",
+        "category": "entertainment",
+        "question": "Which music genre, originating in the early 2000s, features a blend of pop and electronic dance music and became a major trend in pop culture?",
+        "options": ["Electropop", "Grunge", "Synthwave", "Dubstep"],
+        "correct_answer": "Electropop"
+    },
+    {
+        "Id": "67",
+        "category": "entertainment",
+        "question": "Which popular TV series, released on HBO in 2021, is set in a dystopian future where a mysterious virus has ravaged humanity?",
+        "options": ["The Last of Us", "Westworld", "Succession", "Euphoria"],
+        "correct_answer": "The Last of Us"
+    },
+    {
+        "Id": "68",
+        "category": "entertainment",
+        "question": "Which major streaming service is known for its algorithm that recommends personalized content based on viewing history and preferences?",
+        "options": ["Netflix", "Amazon Prime Video", "Hulu", "Disney+"],
+        "correct_answer": "Netflix"
+    },
+    {
+        "Id": "69",
+        "category": "entertainment",
+        "question": "Which fashion trend, popularized in the late 2010s, focuses on sustainable and eco-friendly clothing options?",
+        "options": ["Eco-Friendly Fashion", "Fast Fashion", "Streetwear", "Luxury Fashion"],
+        "correct_answer": "Eco-Friendly Fashion"
+    },
+    {
+        "Id": "70",
+        "category": "entertainment",
+        "question": "Which pop culture trend involves fans creating and sharing content related to their favorite movies, TV shows, or celebrities on social media?",
+        "options": ["Fan Art", "Meme Culture", "Viral Challenges", "Influencer Marketing"],
+        "correct_answer": "Fan Art"
+    },
+    {
+        "Id": "71",
+        "category": "entertainment",
+        "question": "Which popular social media platform launched a feature called 'Spaces' to enable users to create and join live audio conversations?",
+        "options": ["Twitter", "Clubhouse", "Facebook", "Instagram"],
+        "correct_answer": "Twitter"
+    },
+    {
+        "Id": "72",
+        "category": "entertainment",
+        "question": "Which influential fashion designer is known for her distinctive use of bold prints and vibrant colors, particularly in her 'floral' collection?",
+        "options": ["Vivienne Westwood", "Diane von Fürstenberg", "Betsey Johnson", "Anna Sui"],
+        "correct_answer": "Betsey Johnson"
+    },
+    {
+        "Id": "73",
+        "category": "entertainment",
+        "question": "Which Netflix series, based on a popular book series, follows the adventures of a young witch at a magical academy?",
+        "options": ["Chilling Adventures of Sabrina", "The Witcher", "The Magicians", "Shadow and Bone"],
+        "correct_answer": "Chilling Adventures of Sabrina"
+    },
+    {
+        "Id": "74",
+        "category": "entertainment",
+        "question": "Which celebrity is known for their social media presence and entrepreneurial ventures, including a beauty brand and a line of clothing?",
+        "options": ["Kylie Jenner", "Rihanna", "Lady Gaga", "Selena Gomez"],
+        "correct_answer": "Kylie Jenner"
+    },
+    {
+        "Id": "75",
+        "category": "entertainment",
+        "question": "Which recent pop culture phenomenon involves live-streaming gameplay and interacting with viewers in real-time?",
+        "options": ["Twitch Streaming", "Vlogging", "Podcasting", "Live TV"],
+        "correct_answer": "Twitch Streaming"
+    },
+    {
+        "Id": "76",
+        "category": "entertainment",
+        "question": "Which major fashion event, held annually in Paris, is known for showcasing the latest haute couture collections from top designers?",
+        "options": ["Paris Fashion Week", "Milan Fashion Week", "New York Fashion Week", "London Fashion Week"],
+        "correct_answer": "Paris Fashion Week"
+    },
+    {
+        "Id": "77",
+        "category": "entertainment",
+        "question": "Which pop star released the hit album 'Lover' in 2019 and is known for her narrative songwriting and public persona?",
+        "options": ["Taylor Swift", "Ariana Grande", "Dua Lipa", "Ed Sheeran"],
+        "correct_answer": "Taylor Swift"
+    },
+    {
+        "Id": "78",
+        "category": "entertainment",
+        "question": "Which popular trend in the entertainment industry involves creating and sharing DIY videos and life hacks on social media platforms?",
+        "options": ["DIY Culture", "Product Reviews", "Unboxing Videos", "Challenge Videos"],
+        "correct_answer": "DIY Culture"
+    },
+    {
+        "Id": "79",
+        "category": "entertainment",
+        "question": "Which major film studio, known for its animated features, released the movie 'Frozen' in 2013, which became a cultural phenomenon?",
+        "options": ["Disney", "Pixar", "DreamWorks", "Illumination"],
+        "correct_answer": "Disney"
+    },
+    {
+        "Id": "80",
+        "category": "entertainment",
+        "question": "Which social media platform is known for its feature that allows users to post and discover short, looping videos with audio clips?",
+        "options": ["TikTok", "Instagram", "Snapchat", "Facebook"],
+        "correct_answer": "TikTok"
+    }
+]

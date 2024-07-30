@@ -2,20 +2,16 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import './navbar.css'; // Ensure this file exists in the same directory
+import logo from '../components/peela.png';
 
 
 function Navbar() {
   return (
     <nav className="navbar">
-      <div className="navbar-left">
-        <div className="dropdown">
-          <button className="dropbtn">Other Tests</button>
-          <div className="dropdown-content">
-            <NavLink to="/games">Games</NavLink>
-            <NavLink to="/character">Character Test</NavLink>
-            <NavLink to="/knowledge">Knowledge Test</NavLink>
-          </div>
-        </div>
+  <div className="navbar-logo">
+        <NavLink to="/">
+          <img src={logo} alt="Logo" className="logo" />
+        </NavLink>
       </div>
       <ul className="navbar-links">
         <li>
@@ -31,7 +27,7 @@ function Navbar() {
             to="/knowledge"
             className={({ isActive }) => (isActive ? 'active' : '')}
           >
-            Explore
+            Quiz
           </NavLink>
         </li>
         <li>

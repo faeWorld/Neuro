@@ -1,25 +1,25 @@
-/* Container styles */
 .container {
-  align-items: center;
-  border: 2px solid #4d1582; /* Border color */
+  border: 2px solid #6800ca; /* Darker border color for better contrast */
+  text-align: center; /* Center text inside the bubble */
+  position: relative; /* Position relative for potential use of pseudo-elements */
+  overflow: hidden; /* Hide any overflow content */
+  display: flex;
+  flex-direction: column; /* Arrange content in a column */
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
   border-radius: 30px; /* Rounded edges */
-  padding: 20px; /* Space inside the container */
+  padding: 50px; /* Space inside the container */
   margin: 20px auto; /* Centered container */
   max-width: 800px; /* Max width of the container */
   background-color: #9b30ff; /* Background color for the container */
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); /* Shadow effect */
-  position: relative; /* For positioning the animation */
-  color:#f7337e;
-  position:center;
-  top: 150px;
-  bottom: 100px;
 }
-
 /* Home styles */
 .home {
 
   text-align: center;
   background-color:none;
+  margin: 40px auto;
   /*position: absolute; /* Ensure the ::before pseudo-element can be used */
   /*min-height: 100vh; /* Ensure .home takes up at least the full viewport height */
 }

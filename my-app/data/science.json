@@ -1,0 +1,562 @@
+[
+    {
+        "Id": "1",
+        "category": "science",
+        "question": "What is the chemical symbol for the element Gold?",
+        "options": ["Au", "Ag", "Pb", "Fe"],
+        "correct_answer": "Au"
+    },
+    {
+        "Id": "2",
+        "category": "science",
+        "question": "What is the powerhouse of the cell?",
+        "options": ["Nucleus", "Mitochondria", "Ribosome", "Endoplasmic Reticulum"],
+        "correct_answer": "Mitochondria"
+    },
+    {
+        "Id": "3",
+        "category": "science",
+        "question": "What planet is known as the Red Planet?",
+        "options": ["Venus", "Mars", "Jupiter", "Saturn"],
+        "correct_answer": "Mars"
+    },
+    {
+        "Id": "4",
+        "category": "science",
+        "question": "What is the chemical formula for water?",
+        "options": ["H2O", "CO2", "O2", "NaCl"],
+        "correct_answer": "H2O"
+    },
+    {
+        "Id": "5",
+        "category": "science",
+        "question": "What is the hardest natural substance on Earth?",
+        "options": ["Gold", "Diamond", "Iron", "Platinum"],
+        "correct_answer": "Diamond"
+    },
+    {
+        "Id": "6",
+        "category": "science",
+        "question": "Which planet is closest to the Sun?",
+        "options": ["Mercury", "Venus", "Earth", "Mars"],
+        "correct_answer": "Mercury"
+    },
+    {
+        "Id": "7",
+        "category": "science",
+        "question": "What is the main gas found in the Earth's atmosphere?",
+        "options": ["Oxygen", "Nitrogen", "Carbon Dioxide", "Argon"],
+        "correct_answer": "Nitrogen"
+    },
+    {
+        "Id": "8",
+        "category": "science",
+        "question": "Who is known as the father of modern physics?",
+        "options": ["Isaac Newton", "Albert Einstein", "Niels Bohr", "Galileo Galilei"],
+        "correct_answer": "Albert Einstein"
+    },
+    {
+        "Id": "9",
+        "category": "science",
+        "question": "What is the largest organ in the human body?",
+        "options": ["Heart", "Brain", "Liver", "Skin"],
+        "correct_answer": "Skin"
+    },
+    {
+        "Id": "10",
+        "category": "science",
+        "question": "What element does 'O' represent on the periodic table?",
+        "options": ["Osmium", "Oxygen", "Oganesson", "Opium"],
+        "correct_answer": "Oxygen"
+    },
+    {
+        "Id": "11",
+        "category": "science",
+        "question": "What is the study of plants called?",
+        "options": ["Zoology", "Botany", "Geology", "Ecology"],
+        "correct_answer": "Botany"
+    },
+    {
+        "Id": "12",
+        "category": "science",
+        "question": "What is the speed of light in a vacuum?",
+        "options": ["299,792 km/s", "150,000 km/s", "1,080,000 km/s", "500,000 km/s"],
+        "correct_answer": "299,792 km/s"
+    },
+    {
+        "Id": "13",
+        "category": "science",
+        "question": "Which organ in the human body is primarily responsible for pumping blood?",
+        "options": ["Liver", "Lungs", "Kidney", "Heart"],
+        "correct_answer": "Heart"
+    },
+    {
+        "Id": "14",
+        "category": "science",
+        "question": "What is the most abundant element in the universe?",
+        "options": ["Oxygen", "Hydrogen", "Carbon", "Helium"],
+        "correct_answer": "Hydrogen"
+    },
+    {
+        "Id": "15",
+        "category": "science",
+        "question": "What is the chemical symbol for Iron?",
+        "options": ["Ir", "Fe", "I", "In"],
+        "correct_answer": "Fe"
+    },
+    {
+        "Id": "16",
+        "category": "science",
+        "question": "Who developed the theory of evolution by natural selection?",
+        "options": ["Charles Darwin", "Gregor Mendel", "Louis Pasteur", "James Watson"],
+        "correct_answer": "Charles Darwin"
+    },
+    {
+        "Id": "17",
+        "category": "science",
+        "question": "What type of rock is formed from volcanic activity?",
+        "options": ["Sedimentary", "Metamorphic", "Igneous", "Granite"],
+        "correct_answer": "Igneous"
+    },
+    {
+        "Id": "18",
+        "category": "science",
+        "question": "What planet is known for its prominent ring system?",
+        "options": ["Saturn", "Uranus", "Neptune", "Jupiter"],
+        "correct_answer": "Saturn"
+    },
+    {
+        "Id": "19",
+        "category": "science",
+        "question": "What is the most common blood type in humans?",
+        "options": ["A", "B", "AB", "O"],
+        "correct_answer": "O"
+    },
+    {
+        "Id": "20",
+        "category": "science",
+        "question": "What gas do plants use during photosynthesis?",
+        "options": ["Oxygen", "Carbon Dioxide", "Nitrogen", "Hydrogen"],
+        "correct_answer": "Carbon Dioxide"
+    },
+    {
+        "Id": "21",
+        "category": "science",
+        "question": "What is the boiling point of water in Celsius?",
+        "options": ["50°C", "75°C", "100°C", "150°C"],
+        "correct_answer": "100°C"
+    },
+    {
+        "Id": "22",
+        "category": "science",
+        "question": "What is the basic unit of life?",
+        "options": ["Organ", "Tissue", "Cell", "Molecule"],
+        "correct_answer": "Cell"
+    },
+    {
+        "Id": "23",
+        "category": "science",
+        "question": "Which planet is known for its Great Red Spot?",
+        "options": ["Mars", "Earth", "Jupiter", "Saturn"],
+        "correct_answer": "Jupiter"
+    },
+    {
+        "Id": "24",
+        "category": "science",
+        "question": "What is the chemical formula for table salt?",
+        "options": ["NaCl", "KCl", "CaCO3", "MgSO4"],
+        "correct_answer": "NaCl"
+    },
+    {
+        "Id": "25",
+        "category": "science",
+        "question": "Which element is essential for the formation of bones and teeth in humans?",
+        "options": ["Calcium", "Iron", "Potassium", "Sodium"],
+        "correct_answer": "Calcium"
+    },
+    {
+        "Id": "26",
+        "category": "science",
+        "question": "What is the largest organ in the human body?",
+        "options": ["Liver", "Skin", "Lung", "Brain"],
+        "correct_answer": "Skin"
+    },
+    {
+        "Id": "27",
+        "category": "science",
+        "question": "Which planet has the most moons?",
+        "options": ["Earth", "Mars", "Jupiter", "Saturn"],
+        "correct_answer": "Saturn"
+    },
+    {
+        "Id": "28",
+        "category": "science",
+        "question": "What type of star is the Sun?",
+        "options": ["Red Giant", "White Dwarf", "Main Sequence", "Neutron Star"],
+        "correct_answer": "Main Sequence"
+    },
+    {
+        "Id": "29",
+        "category": "science",
+        "question": "What is the most abundant gas in Earth's atmosphere?",
+        "options": ["Oxygen", "Carbon Dioxide", "Nitrogen", "Argon"],
+        "correct_answer": "Nitrogen"
+    },
+    {
+        "Id": "30",
+        "category": "science",
+        "question": "What type of rock is formed by sedimentation?",
+        "options": ["Igneous", "Metamorphic", "Sedimentary", "Volcanic"],
+        "correct_answer": "Sedimentary"
+    },
+    {
+        "Id": "31",
+        "category": "science",
+        "question": "Which scientist is known for his laws of motion and universal gravitation?",
+        "options": ["Isaac Newton", "Albert Einstein", "Niels Bohr", "Galileo Galilei"],
+        "correct_answer": "Isaac Newton"
+    },
+    {
+        "Id": "32",
+        "category": "science",
+        "question": "What is the primary source of energy for the Earth's climate system?",
+        "options": ["The Moon", "Geothermal Energy", "The Sun", "Nuclear Reactions"],
+        "correct_answer": "The Sun"
+    },
+    {
+        "Id": "33",
+        "category": "science",
+        "question": "Which organ in the human body is responsible for detoxifying chemicals and producing bile?",
+        "options": ["Kidney", "Liver", "Heart", "Pancreas"],
+        "correct_answer": "Liver"
+    },
+    {
+        "Id": "34",
+        "category": "science",
+        "question": "What is the main component of the Earth's crust?",
+        "options": ["Iron", "Silicon", "Aluminum", "Oxygen"],
+        "correct_answer": "Oxygen"
+    },
+    {
+        "Id": "35",
+        "category": "science",
+        "question": "What is the name of the phenomenon where light bends as it passes through different mediums?",
+        "options": ["Refraction", "Reflection", "Diffraction", "Absorption"],
+        "correct_answer": "Refraction"
+    },
+    {
+        "Id": "36",
+        "category": "science",
+        "question": "Which part of the brain controls voluntary movements?",
+        "options": ["Cerebellum", "Brainstem", "Cerebrum", "Thalamus"],
+        "correct_answer": "Cerebrum"
+    },
+    {
+        "Id": "37",
+        "category": "science",
+        "question": "What is the process by which plants make their own food?",
+        "options": ["Photosynthesis", "Respiration", "Digestion", "Fermentation"],
+        "correct_answer": "Photosynthesis"
+    },
+    {
+        "Id": "38",
+        "category": "science",
+        "question": "What is the chemical symbol for Sodium?",
+        "options": ["Na", "S", "So", "N"],
+        "correct_answer": "Na"
+    },
+    {
+        "Id": "39",
+        "category": "science",
+        "question": "What is the name of the force that causes objects to fall to the ground?",
+        "options": ["Magnetic Force", "Electrostatic Force", "Gravitational Force", "Frictional Force"],
+        "correct_answer": "Gravitational Force"
+    },
+    {
+        "Id": "40",
+        "category": "science",
+        "question": "Which type of blood cell is responsible for oxygen transport?",
+        "options": ["White Blood Cell", "Red Blood Cell", "Platelet", "Plasma"],
+        "correct_answer": "Red Blood Cell"
+    },
+    {
+        "Id": "41",
+        "category": "science",
+        "question": "What is the smallest unit of an element that retains its chemical properties?",
+        "options": ["Molecule", "Atom", "Cell", "Compound"],
+        "correct_answer": "Atom"
+    },
+    {
+        "Id": "42",
+        "category": "science",
+        "question": "What is the most common element in the universe?",
+        "options": ["Hydrogen", "Oxygen", "Carbon", "Helium"],
+        "correct_answer": "Hydrogen"
+    },
+    {
+        "Id": "43",
+        "category": "science",
+        "question": "What is the primary component of the sun's atmosphere?",
+        "options": ["Hydrogen", "Helium", "Oxygen", "Carbon"],
+        "correct_answer": "Hydrogen"
+    },
+    {
+        "Id": "44",
+        "category": "science",
+        "question": "Which planet is known as the 'Morning Star' or 'Evening Star'?",
+        "options": ["Venus", "Mars", "Jupiter", "Mercury"],
+        "correct_answer": "Venus"
+    },
+    {
+        "Id": "45",
+        "category": "science",
+        "question": "What is the chemical symbol for Potassium?",
+        "options": ["P", "K", "Po", "Pt"],
+        "correct_answer": "K"
+    },
+    {
+        "Id": "46",
+        "category": "science",
+        "question": "Which planet is known for its extreme surface temperatures and thick atmosphere?",
+        "options": ["Mercury", "Venus", "Earth", "Mars"],
+        "correct_answer": "Venus"
+    },
+    {
+        "Id": "47",
+        "category": "science",
+        "question": "What is the term for a substance that speeds up a chemical reaction without being consumed?",
+        "options": ["Catalyst", "Solvent", "Reactant", "Product"],
+        "correct_answer": "Catalyst"
+    },
+    {
+        "Id": "48",
+        "category": "science",
+        "question": "What type of bond involves the sharing of electron pairs between atoms?",
+        "options": ["Ionic Bond", "Covalent Bond", "Metallic Bond", "Hydrogen Bond"],
+        "correct_answer": "Covalent Bond"
+    },
+    {
+        "Id": "49",
+        "category": "science",
+        "question": "Which planet has the longest day of all the planets in the solar system?",
+        "options": ["Mercury", "Venus", "Earth", "Mars"],
+        "correct_answer": "Venus"
+    },
+    {
+        "Id": "50",
+        "category": "science",
+        "question": "What is the process by which plants release water vapor into the atmosphere?",
+        "options": ["Evaporation", "Transpiration", "Condensation", "Precipitation"],
+        "correct_answer": "Transpiration"
+    },
+    {
+        "Id": "51",
+        "category": "science",
+        "question": "What is the basic unit of heredity in living organisms?",
+        "options": ["Gene", "Chromosome", "Cell", "Molecule"],
+        "correct_answer": "Gene"
+    },
+    {
+        "Id": "52",
+        "category": "science",
+        "question": "What is the main gas responsible for the greenhouse effect on Earth?",
+        "options": ["Carbon Dioxide", "Oxygen", "Nitrogen", "Methane"],
+        "correct_answer": "Carbon Dioxide"
+    },
+    {
+        "Id": "53",
+        "category": "science",
+        "question": "What is the term for the change of state from a liquid to a gas?",
+        "options": ["Melting", "Freezing", "Condensation", "Evaporation"],
+        "correct_answer": "Evaporation"
+    },
+    {
+        "Id": "54",
+        "category": "science",
+        "question": "What is the chemical symbol for Silver?",
+        "options": ["Ag", "Au", "Pb", "Fe"],
+        "correct_answer": "Ag"
+    },
+    {
+        "Id": "55",
+        "category": "science",
+        "question": "What is the most abundant element in the Earth's crust?",
+        "options": ["Silicon", "Iron", "Aluminum", "Oxygen"],
+        "correct_answer": "Oxygen"
+    },
+    {
+        "Id": "56",
+        "category": "science",
+        "question": "What part of the plant is primarily responsible for photosynthesis?",
+        "options": ["Root", "Stem", "Leaf", "Flower"],
+        "correct_answer": "Leaf"
+    },
+    {
+        "Id": "57",
+        "category": "science",
+        "question": "What is the name of the process by which a cell divides into two daughter cells?",
+        "options": ["Meiosis", "Mitosis", "Fission", "Fusion"],
+        "correct_answer": "Mitosis"
+    },
+    {
+        "Id": "58",
+        "category": "science",
+        "question": "What is the chemical formula for table sugar?",
+        "options": ["C6H12O6", "C12H22O11", "C6H6", "C3H6O3"],
+        "correct_answer": "C12H22O11"
+    },
+    {
+        "Id": "59",
+        "category": "science",
+        "question": "Which planet is known for its extreme tilt and seasons?",
+        "options": ["Uranus", "Neptune", "Saturn", "Jupiter"],
+        "correct_answer": "Uranus"
+    },
+    {
+        "Id": "60",
+        "category": "science",
+        "question": "What is the term for the amount of matter in an object?",
+        "options": ["Mass", "Weight", "Volume", "Density"],
+        "correct_answer": "Mass"
+    },
+    {
+        "Id": "61",
+        "category": "science",
+        "question": "What is the chemical symbol for the element Gold?",
+        "options": ["Au", "Ag", "Pb", "Fe"],
+        "correct_answer": "Au"
+    },
+    {
+        "Id": "62",
+        "category": "science",
+        "question": "What is the powerhouse of the cell?",
+        "options": ["Nucleus", "Mitochondria", "Ribosome", "Endoplasmic Reticulum"],
+        "correct_answer": "Mitochondria"
+    },
+    {
+        "Id": "63",
+        "category": "science",
+        "question": "What planet is known as the Red Planet?",
+        "options": ["Venus", "Mars", "Jupiter", "Saturn"],
+        "correct_answer": "Mars"
+    },
+    {
+        "Id": "64",
+        "category": "science",
+        "question": "What is the chemical formula for water?",
+        "options": ["H2O", "CO2", "O2", "NaCl"],
+        "correct_answer": "H2O"
+    },
+    {
+        "Id": "65",
+        "category": "science",
+        "question": "What is the primary gas in the Earth's atmosphere?",
+        "options": ["Nitrogen", "Oxygen", "Carbon Dioxide", "Argon"],
+        "correct_answer": "Nitrogen"
+    },
+    {
+        "Id": "66",
+        "category": "science",
+        "question": "What is the name of the process by which plants absorb water through their roots?",
+        "options": ["Transpiration", "Evaporation", "Absorption", "Condensation"],
+        "correct_answer": "Absorption"
+    },
+    {
+        "Id": "67",
+        "category": "science",
+        "question": "What is the most abundant gas in the Earth's atmosphere?",
+        "options": ["Oxygen", "Carbon Dioxide", "Nitrogen", "Hydrogen"],
+        "correct_answer": "Nitrogen"
+    },
+    {
+        "Id": "68",
+        "category": "science",
+        "question": "What is the chemical symbol for Iron?",
+        "options": ["Ir", "Fe", "I", "In"],
+        "correct_answer": "Fe"
+    },
+    {
+        "Id": "69",
+        "category": "science",
+        "question": "What is the hardest natural substance on Earth?",
+        "options": ["Diamond", "Gold", "Iron", "Platinum"],
+        "correct_answer": "Diamond"
+    },
+    {
+        "Id": "70",
+        "category": "science",
+        "question": "What is the smallest bone in the human body?",
+        "options": ["Stapes", "Incus", "Malleus", "Femur"],
+        "correct_answer": "Stapes"
+    },
+    {
+        "Id": "71",
+        "category": "science",
+        "question": "What is the chemical symbol for Potassium?",
+        "options": ["P", "K", "Po", "Pt"],
+        "correct_answer": "K"
+    },
+    {
+        "Id": "72",
+        "category": "science",
+        "question": "What is the name of the process by which plants release oxygen into the atmosphere?",
+        "options": ["Respiration", "Photosynthesis", "Transpiration", "Absorption"],
+        "correct_answer": "Photosynthesis"
+    },
+    {
+        "Id": "73",
+        "category": "science",
+        "question": "What is the chemical symbol for Neon?",
+        "options": ["Ne", "N", "Ni", "Neon"],
+        "correct_answer": "Ne"
+    },
+    {
+        "Id": "74",
+        "category": "science",
+        "question": "Which organ in the human body is responsible for producing insulin?",
+        "options": ["Liver", "Kidney", "Pancreas", "Stomach"],
+        "correct_answer": "Pancreas"
+    },
+    {
+        "Id": "75",
+        "category": "science",
+        "question": "What is the main gas in the Earth's atmosphere that is responsible for the greenhouse effect?",
+        "options": ["Carbon Dioxide", "Oxygen", "Nitrogen", "Argon"],
+        "correct_answer": "Carbon Dioxide"
+    },
+    {
+        "Id": "76",
+        "category": "science",
+        "question": "Which part of the human body is the primary site for digestion?",
+        "options": ["Small Intestine", "Stomach", "Large Intestine", "Liver"],
+        "correct_answer": "Small Intestine"
+    },
+    {
+        "Id": "77",
+        "category": "science",
+        "question": "What is the term for a substance that changes color in the presence of an acid or base?",
+        "options": ["Indicator", "Catalyst", "Solvent", "Reactant"],
+        "correct_answer": "Indicator"
+    },
+    {
+        "Id": "78",
+        "category": "science",
+        "question": "What is the name of the outermost layer of the Earth's atmosphere?",
+        "options": ["Troposphere", "Stratosphere", "Mesosphere", "Exosphere"],
+        "correct_answer": "Exosphere"
+    },
+    {
+        "Id": "79",
+        "category": "science",
+        "question": "What is the basic unit of life in all living organisms?",
+        "options": ["Cell", "Organ", "Tissue", "System"],
+        "correct_answer": "Cell"
+    },
+    {
+        "Id": "80",
+        "category": "science",
+        "question": "Which planet is known as the 'Red Planet'?",
+        "options": ["Mars", "Venus", "Jupiter", "Saturn"],
+        "correct_answer": "Mars"
+    }
+]
