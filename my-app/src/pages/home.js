@@ -1,10 +1,14 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import Popup from '../components/popup'; // Import the Popup component
+import axios from 'axios'; // Import axios for making API requests
 import './home.css'; // Import CSS file for styling
+
 
 const Home = () => {
   const [showPopup, setShowPopup] = useState(true);
+  const [popupStage, setPopupStage] = useState('email'); // Manage popup stage (email/code)
+  const [error, setError] = useState(''); // Manage error messages
 
   useEffect(() => {
     const checkLoginStatus = () => {
@@ -34,6 +38,30 @@ const Home = () => {
     }));
   };
 
+  const handleSubscribe = async (email, code) => {
+    try {
+      if (popupStage === 'email') {
+        const response = await axios.post('/subscribe', { email });
+        if (response.data === 'Subscription successful! Please check your email for the code.') {
+          setPopupStage('code'); // Move to code entry stage if subscription is successful
+        } else {
+          setError(response.data);
+        }
+      } else if (popupStage === 'code') {
+        const response = await axios.post('/validate-code', { email, code });
+        if (response.data.valid) {
+          handleLoginSuccess();
+        } else {
+          setError('Invalid code.');
+        }
+      }
+    } catch (err) {
+      setError('An error occurred.');
+    }
+  };
+  const handleButtonClick = () => {
+    navigate('/knowledge');
+  };
   return (
     <div className="home">
       <div className="container">
@@ -43,14 +71,14 @@ const Home = () => {
         </p>
         <p>At Neuro, we believe that no one is perfect and there's always something you don't know about!</p>
         <p>Challenge yourself today!</p>
-        <Link to="/knowledge">
-          <button>Let's Go</button>
-        </Link>
+        <button onClick={handleButtonClick}>Let's Go</button>
       </div>
       {showPopup && (
         <Popup 
-          onSubscribe={() => setShowPopup(false)} 
-          onEnterCode={handleLoginSuccess} 
+          popupStage={popupStage}
+          onSubmit={handleSubscribe}
+          setPopupStage={setPopupStage}
+          error={error} // Pass error state to Popup
         />
       )}
     </div>
@@ -58,5 +86,6 @@ const Home = () => {
 };
 
 export default Home;
+
 
 
