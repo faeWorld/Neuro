@@ -10,6 +10,7 @@ const KnowledgeTest = () => {
   const [selectedAnswers, setSelectedAnswers] = useState({});
   const [score, setScore] = useState(null);
   const [error, setError] = useState(''); // Error state for better user feedback
+  const [loading, setLoading] = useState(true); // Add loading state
 
   useEffect(() => {
     const fetchQuestions = async () => {
@@ -27,9 +28,7 @@ const KnowledgeTest = () => {
 
   if (loading) return <div>Loading...</div>;
   if (error) return <div>{error}</div>;
-  
 
-  
   const questionsPerPage = 10;
   const startIndex = currentPage * questionsPerPage;
   const endIndex = startIndex + questionsPerPage;
@@ -114,6 +113,7 @@ const KnowledgeTest = () => {
 };
 
 export default KnowledgeTest;
+
 
 
 

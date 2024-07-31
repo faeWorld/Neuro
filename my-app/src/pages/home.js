@@ -1,11 +1,13 @@
 import React, { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom'; 
 import Popup from '../components/popup'; // Import the Popup component
 import axios from 'axios'; // Import axios for making API requests
 import './home.css'; // Import CSS file for styling
 
 
+
 const Home = () => {
+  const navigate = useNavigate();
   const [showPopup, setShowPopup] = useState(true);
   const [popupStage, setPopupStage] = useState('email'); // Manage popup stage (email/code)
   const [error, setError] = useState(''); // Manage error messages
@@ -86,6 +88,3 @@ const Home = () => {
 };
 
 export default Home;
-
-
-

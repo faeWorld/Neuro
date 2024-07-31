@@ -14,7 +14,7 @@ const Code = require('./models/code');
 
 const app = express();
 app.use(bodyParser.json());
-const PORT = process.env.PORT || 3003; 
+const PORT = process.env.PORT || 3002; 
 app.use(bodyParser.urlencoded({ extended: true }));
 
 
