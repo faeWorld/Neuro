@@ -1,0 +1,93 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* General container styles */
+.subscription-manager {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.342); /* semi-transparent background */
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Press Start 2P', cursive; 
+}
+  
+/* Component-specific styles */
+.email-subscription-component,
+.code-validation-component {
+  width: 100%;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  font-family: 'Press Start 2P', cursive; 
+}
+  
+  /* Header styling */
+  .popup-header {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Button styling */
+  .button {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #a200ff;
+    color: white;
+    cursor: pointer;
+    font-family: 'Press Start 2P', cursive;
+    display: inline-block;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+    font-family: 'Press Start 2P', cursive; 
+  }
+  
+  .button:hover {
+    background-color: #8000bb;
+  }
+  
+  /* Input fields styling */
+  .input-field {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: 'Press Start 2P', cursive; 
+  }
+  
+  /* Error message styling */
+  .error-message {
+    background-color: #8000bb;
+    color: #fff;
+    margin: 10px 0;
+    font-size: 0.9em;
+    font-family: 'Press Start 2P', cursive;
+  }
+  
+  /* Success message styling */
+  .success-message {
+    background-color: #a624e2;
+    color: #fff;
+    margin: 10px 0;
+    font-size: 0.9em;
+    font-family: 'Press Start 2P', cursive;
+  }
+
+/*-----------------------------------------------*/  
+

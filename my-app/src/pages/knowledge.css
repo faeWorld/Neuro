@@ -1,86 +1,10 @@
-.question-container {
-  background-color: #911cff; /* Background color for the bubble */
-  border: 2px solid #6800ca; /* Darker border color for better contrast */
-  border-radius: 15px; /* More rounded edges for a bubbly effect */
-  padding: 30px; /* Increased padding for better content spacing */
-  max-width: 800px; /* Maximum width for readability */
-  width: 100%; /* Full width up to the max-width */
-  height: 290px;
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); 
-  text-align: center; /* Center text inside the bubble */
-  position: absolute; /* Position absolute to place it on top of the book container */
-  top: 0; /* Position it at the top of the book container */
-  left: 50%; /* Center it horizontally */
-  transform: translateX(-50%); /* Adjust horizontal centering */
-  z-index: 1; /* Ensure it appears above the book container */
-}
-  
-  .navigation-buttons {
-    align-items: center;
-    border-color: none;
-    font-family: 'Minecraftia', sans-serif; 
-  }
-  
-  .navigation-buttons button {
-    margin:  10px;
-    padding: 10px 20px;
-    border-radius: 10px;
-    font-size: 16px;
-    cursor: pointer;
-    background: #78ff09;
-    font-family: 'Minecraftia', sans-serif; 
-   
-  }
-  /* Hover effect */
-.navigation-buttons button:hover {
-  background: rgb(163, 254, 6); /* Slightly darker green */
-  transform: scale(1.05); /* Slightly enlarge on hover */
-  border-color: none;
-  font-family: 'Minecraftia', sans-serif; 
+.knowledge h1 {
+  color: #ffffff;
+  margin-bottom: 20px; /* Space between the heading and the container */
+  font-family: 'Press Start 2P', cursive;
   font-size: 22px;
-  border-width: 3px;
 }
 
-/* Active effect */
-.navigation-buttons button:active {
-  background: rgb(163, 254, 6); /* Even darker green when clicked */
-  transform: scale(0.98); /* Slightly shrink on click */
-  border-color: none;
-  font-family: 'Minecraftia', sans-serif; 
-}
-
-/* Disabled button state */
-.navigation-buttons button:disabled {
-  background: #78ff09; /* Light grey background for disabled state */
-  color: #636363; /* Light grey text color */
-  cursor: not-allowed; /* Change cursor to indicate disabled state */
-  border-color: none;
-  font-family: 'Minecraftia', sans-serif; 
-}
-/* Container to wrap book-container and question-container */
-.container {
-  position: relative;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
- 
-  .book-container {
-    display: flex;
-    flex-direction: column; /* Stack questions vertically */
-    align-items: center;
-    justify-content: center;
-    height: 70vh; /* Adjust as needed */
-    width: 80vw; /* Adjust width to fit well within viewport */
-    max-width: 1000px; /* Optional: Set a maximum width */
-    padding: 20px;
-    background: #f28f8f4d; /* Light background color */
-    border-radius: 40px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-   
-
-  }
 
   /* Background animation */
 @keyframes backgroundMotion {
@@ -90,22 +14,17 @@
 
 
 
-.knowledge-test {
-  text-align: right;
-  background-color:none;
-  padding-top: 25px;
-  padding-left: 200px;
-  padding-right: 100px;
-  align-items: center;
-  background-color: none;
-  flex-direction: column;
-  justify-content: center;
-
+.knowledge {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: none;
+    text-align: center;
   /*position: absolute; /* Ensure the ::before pseudo-element can be used */
   /*min-height: 100vh; /* Ensure .home takes up at least the full viewport height */
 }
 
-.knowledge-test::before {
+.knowledge::before {
   content: '';
   position: absolute;
   top: 0;
@@ -117,3 +36,44 @@
   animation: backgroundMotion 15s ease infinite;
   z-index: -1; /* Place it behind the content */
 }
+
+
+  
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center content horizontally */
+    height: 80vh; /* 80% of the viewport height */
+    width: 90vw; /* 90% of the viewport width */
+    padding: 20px;
+    background: #f28f8f4d; /* Light background color for the entire container */
+    border-radius: 40px;
+    overflow: hidden; /* Hide overflow content */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    margin: auto; /* Center the container within the page */
+    z-index: 1;
+}
+  
+
+
+
+
+
+
+
+
+
+
+/* 
+  .container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    height: 70vh; 
+    width: 80vw; 
+    max-width: 1000px; 
+    padding: 20px;
+    background: #f28f8f4d; 
+    border-radius: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);}*/

@@ -1,0 +1,53 @@
+/* quiz.css */
+
+.quiz-container {
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .quiz-header {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: 'Minecraftia', sans-serif; 
+  }
+  
+  .question-container {
+    margin-bottom: 15px;
+  }
+  
+  .question-text {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: 'Minecraftia', sans-serif; 
+  }
+  
+  .answer-option {
+    margin-bottom: 5px;
+    font-family: 'Minecraftia', sans-serif; 
+  }
+  
+  input[type="radio"] {
+    margin-right: 10px;
+    font-family: 'Minecraftia', sans-serif; 
+  }
+  
+  .submit-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #a70eff;
+    background-color: #59ffb7;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Minecraftia', sans-serif; 
+  }
+  
+  .submit-button:hover {
+    background-color: #bdff41;
+  }
+  

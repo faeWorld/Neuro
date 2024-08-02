@@ -119,10 +119,13 @@ app.post('/submit-test', async (req, res) => {
 
 
 
-// Connect to MongoDB and start the server
-mongoose.connect(process.env.MONGO_URI, { useNewUrlParser: true, useUnifiedTopology: true })
+mongoose.connect(process.env.MONGO_URI, {
+  useNewUrlParser: true,
+  useCreateIndex: true,  // Optional: ensures indexes are created correctly
+  useFindAndModify: false // Optional: avoids deprecation warnings related to `findAndModify`
+})
   .then(() => console.log('MongoDB connected...'))
-  .catch(err => console.log(err));
+  .catch(err => console.error('MongoDB connection error:', err));
 
 
 

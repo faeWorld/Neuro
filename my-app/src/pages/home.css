@@ -1,34 +1,31 @@
 .container {
-  border: 2px solid #6800ca; /* Darker border color for better contrast */
-  text-align: center; /* Center text inside the bubble */
-  position: relative; /* Position relative for potential use of pseudo-elements */
-  overflow: hidden; /* Hide any overflow content */
-  display: flex;
-  flex-direction: column; /* Arrange content in a column */
-  align-items: center; /* Center items horizontally */
-  justify-content: center; /* Center items vertically */
-  border-radius: 30px; /* Rounded edges */
-  padding: 50px; /* Space inside the container */
-  margin: 20px auto; /* Centered container */
-  max-width: 800px; /* Max width of the container */
-  background-color: #9b30ff; /* Background color for the container */
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); /* Shadow effect */
+  margin: 20px auto; 
+  background-color: #911cff; 
+  border: 2px solid #6800ca;
+  border-radius: 15px; 
+  padding: 30px; 
+  max-width: 800px; 
+  width: 100%; 
+  height: 290px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); 
+  text-align: center; 
+  position: relative; 
+  overflow: hidden; 
 }
 /* Home styles */
 .home {
-
-  text-align: center;
-  background-color:none;
-  margin: 40px auto;
-  /*position: absolute; /* Ensure the ::before pseudo-element can be used */
-  /*min-height: 100vh; /* Ensure .home takes up at least the full viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  position: relative; /* Ensures the popup is centered within the page */
 }
 
 /* Heading styles */
 .home h1 {
   font-size: 2.5em;
   color: #ffffff;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Minecraftia', sans-serif; 
 }
 
 /* Paragraph styles */
@@ -36,18 +33,20 @@
   font-size: 1.2em;
   color: #ffffff;
   margin: 20px 0;
-  font-family: sans-serif;
+  font-family: 'Press Start 2P', cursive;
 }
 
 /* Button styles */
 .home button {
   background-color: #911cff;
   color: white;
-  border: 2px solid #4d1582;
+  border: 2px solid #ad55ff;
   padding: 10px 20px;
   font-size: 1em;
   cursor: pointer;
   border-radius: 8px;
+  font-family: 'Minecraftia', sans-serif; 
+
 }
 
 .home button:hover {
@@ -70,5 +69,28 @@
   background: linear-gradient(90deg, #942ff8, #a055d9, #ff920e, #f7337e, #ff920e, #a055d9,#942ff8);
   background-size: 400% 400%;
   animation: backgroundMotion 15s ease infinite;
-  z-index: -1; /* Place it behind the content */
+  z-index: -1; 
+  /* Place it behind the content */
+}
+
+
+.home .subscription-popup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.14); /* Semi-transparent background */
+}
+
+.subscription-popup-content {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px; /* Adjust width as needed */
+  text-align: center;
 }

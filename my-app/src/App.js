@@ -1,8 +1,7 @@
 import React, { useState, useEffect, createContext, useContext } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import axios from 'axios';
 import Navbar from './components/Navbar';
-import Popup from './components/popup';
+import SubscriptionManager from './components/subscriptionmanager';
 import Home from './pages/home';
 import KnowledgeTest from './pages/knowledge';
 import About from './pages/about';
@@ -11,70 +10,38 @@ import About from './pages/about';
 const UserContext = createContext();
 
 // Create a custom hook for accessing UserContext
-export const useUser = () => useContext(UserContext);
+export const useUserContext = () => useContext(UserContext);
 
 const App = () => {
-  const [showPopup, setShowPopup] = useState(true);
-  const [popupStage, setPopupStage] = useState('email');
+  const [showSubscriptionManager, setShowSubscriptionManager] = useState(true);
   const [isLoggedIn, setIsLoggedIn] = useState(false);
-  const [userEmail, setUserEmail] = useState(null); // Track user email
-  const [error, setError] = useState('');
+  const [userEmail, setUserEmail] = useState(null);
  
   const handleLoginSuccess = () => {
     setIsLoggedIn(true);
-    setShowPopup(false);
+    setShowSubscriptionManager(false);
   };
 
-  const handlePopupSubmit = async (email, code) => {
-    try {
-      if (popupStage === 'email') {
-        // Send email to the server for subscription
-        const response = await axios.post('/subscribe', { email }); if (response.data === 'Subscription successful! Please check your email for the code.') {
-         
-          setPopupStage('code'); // Move to code entry stage if subscription is successful
-          setUserEmail(email); // Save the email to use it for code validation
-        }  
-        
-      }  else {
-        const response = await fetch('/validate-code', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ email, code }),
-        });
-        const result = await response.json();
-        if (result.valid) {
-          handleLoginSuccess();
-        } else {
-          setError('Invalid code.');
-        }
-      }
-    } catch (error) {
-      setError('An error occurred.');
-    }
-  };
+ 
 
   useEffect(() => {
     // Always show popup on initial load
-    setShowPopup(true);
+    setShowSubscriptionManager(true);
   }, []);
 
   return (
     <Router>
+      
       <UserContext.Provider value={{ userEmail, isLoggedIn }}>
         <div className="App">
           <Navbar />
-          {showPopup && (
-            <Popup
-              popupStage={popupStage}
-              onSubmit={handlePopupSubmit}
-              setPopupStage={setPopupStage}
-              
-          
-            />
-          )}
+          {showSubscriptionManager && (
+             <SubscriptionManager onLoginSuccess={handleLoginSuccess} />
+            )}
+
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/knowledge" element={isLoggedIn ? <KnowledgeTest /> : <Home />} />
+            <Route path="/knowledge"  element={<KnowledgeTest />} />
             <Route path="/about" element={<About />} />
           </Routes>
         </div>
@@ -86,4 +53,17 @@ const App = () => {
 
 
 export default App;
+
+/*Renders SubscriptionManager on the initial load, ensuring the email subscription and code validation are always prompted first
+
+isLoggedIn ? <KnowledgeTest />: If isLoggedIn is true, then the <KnowledgeTest />
+ component is rendered. This means that the user will see the KnowledgeTest page
+  if they are logged in.
+
+: <Home />: If isLoggedIn is false, then the <Home />
+ component is rendered instead. This means that if the user is not logged in,
+  they will be redirected to the Home page.
+
+O
+*/
 
