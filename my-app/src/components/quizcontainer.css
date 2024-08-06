@@ -1,5 +1,19 @@
 /* quizcontainer.css */
+.loader {
+  border: 16px solid #2bffb591; /* Light grey */
+  border-top: 16px solid #9720ff; /* Blue */
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+  position: absolute;
+  align-content: center;
+}
 
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
 /* Container for the quiz */
 .knowledge-test {
   background-color: #911cff; 
@@ -12,26 +26,67 @@
   height: 290px;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); 
   text-align: center;
+  position: relative; /* Ensure positioning context for the popup */
   /*position: absolute;  Position absolute to place it on top of the book container */
   /*top: 0; 
   left: 50%;
   transform: translateX(-50%); */
   z-index: -1; 
 }
-  
+  /* Score Popup Styles */
+.score-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.355); /* Slight see-through background */
+  z-index: 1000; /* Ensure it is above other content */
+}
+
+.score-popup-content {
+  background: rgb(166, 32, 255);
+  border: 2px, solid;
+  border-color: #6e1da8;
+  color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.score-popup button {
+  margin: 0 10px;
+  font-family: 'Minecraftia', sans-serif; 
+  background: #78ff09; /* Light grey background for disabled state */
+  color: #636363; /* Light grey text color */
+  border-radius: 8px;
+  font-size: 2em;
+
+}
   /* Container for the questions and choices */
   .book-container {
     /*background-color: aliceblue;*/
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: column; /* Ensures items are in a vertical column */
+    align-items: flex-start; 
     padding: 20px;
+      margin: 20px auto; 
+      width: 50vw; 
+      height: 60vh;
+      text-align: center; 
+      overflow: hidden; 
+      position: relative; /* Ensure positioning context for the loader */
   }
   
   /* Style for each question */
   .question-container {
     margin-bottom: 20px;
     font-family: 'Press Start 2P', cursive;
+    font-size: 22px;
     margin-bottom: 20px; /* Space between questions */
     padding: 10px;
     width: 100%; /* Full width within the parent container */
@@ -41,12 +96,22 @@
     color: #29024b;
   }
   
+.options-container {
+  display: block;
+  flex-direction: column;
+
+}
+
+.option-label {
+  margin: 5px 0;
+}
+  
   /* Style for each answer option */
   .question-container label {
     display: block; /* Ensure each answer is on its own line */
     align-items: center; /* Center items vertically */
     cursor: pointer; /* Pointer cursor on hover */
-    font-size: 14px; /* Font size for readability */
+    font-size: 17px; /* Font size for readability */
     color: #29024b;
 
   }
@@ -86,29 +151,61 @@
 
 
 
+/* quizcontainer.css */
+.timer-display {
+  position: absolute;
+  margin-bottom: 10px;
+  font-weight: bold;
 
+  top: 10px;
+  right: 10px;
+  font-size: 1em;
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.293); 
+  padding: 5px 10px;
+  border-radius: 5px;
 
+  font-family: 'Minecraftia', sans-serif; 
+}
 
+ /* 
+.timer {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 1.2em;
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 5px 10px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: 'Minecraftia', sans-serif; 
+}*/
 
-
-
-
-
-
-
-
-
+.score-display {
+  
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #8f16fa;
+  border: 2px solid #6c03c8;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-size: 1.5em;
+  color: #ffffff;
+  font-family: 'Minecraftia', sans-serif; 
+}
   .navigation-buttons {
     align-items: center;
     border-color: none;
-    font-family: 'Minecraftia', sans-serif; 
+  
   }
   
   .navigation-buttons button {
     margin:  10px;
     padding: 10px 20px;
     border-radius: 10px;
-    font-size: 16px;
+    font-size: 2em;
     cursor: pointer;
     background: #78ff09;
     font-family: 'Minecraftia', sans-serif; 
@@ -122,4 +219,28 @@
     cursor: not-allowed; /* Change cursor to indicate disabled state */
     border-color: none;
     font-family: 'Minecraftia', sans-serif; 
+  }
+
+  
+  .navigation-buttons .prev-button {
+    font-size: 2em; /* Adjust size if needed */
+  }
+  
+  .navigation-buttons .next-button {
+    font-size: 2em; /* Adjust size if needed */
+  }
+  .score-display h3{
+   
+      font-size: 1.5em;
+      color: #ffffff;
+      font-family: 'Minecraftia', sans-serif; 
+  }
+
+  button {
+    margin: 0 10px;
+    font-family: 'Minecraftia', sans-serif; 
+    background: #78ff09; /* Light grey background for disabled state */
+    color: #636363; /* Light grey text color */
+    border-radius: 10px;
+    font-size: 2em;
   }

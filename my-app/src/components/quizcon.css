@@ -1,0 +1,191 @@
+/* quizcontainer.css */
+
+/* Loader styles */
+.loader {
+    border: 16px solid #2bffb5; 
+    border-top: 16px solid #8800fffa; 
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    animation: spin 2s linear infinite;
+    position: absolute; 
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    z-index: 20;
+  }
+  
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  /* Container for the quiz */
+  .knowledge-test {
+    background-color: #911cff; 
+    border: 3px solid #6800ca; 
+    border-bottom-color: #2e203a;
+    border-radius: 15px; 
+    padding: 20px; 
+    max-width: 800px; 
+    width: 100%;
+    height: 290px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); 
+    text-align: center;
+    position: relative; /* Ensure positioning context for the popup */
+    z-index: 10; /* Higher z-index to ensure interactivity */
+  }
+  
+  /* Score Popup Styles */
+  .score-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.355); /* Slight see-through background */
+    z-index: 1000; /* Ensure it is above other content */
+  }
+  
+  .score-popup-content {
+    background: rgb(166, 32, 255);
+    border: 2px solid #6e1da8;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .score-popup button {
+    margin: 0 10px;
+    font-family: 'Minecraftia', sans-serif; 
+    background: #78ff09; /* Light grey background for disabled state */
+    color: #636363; /* Light grey text color */
+    border-radius: 8px;
+    font-size: 2em;
+  }
+  
+  /* Container for the questions and choices */
+  .book-container {
+    display: flex;
+    flex-direction: column; /* Ensures items are in a vertical column */
+    align-items: flex-start;
+    padding: 10px;
+    margin: 10px auto; 
+    width: 40vw; 
+    height: 50vh;
+    text-align: center; 
+    overflow: hidden; 
+    position: relative; /* Ensure positioning context for the loader */
+  }
+  
+  /* Style for each question */
+  .question-container {
+    align-items: center;
+    margin:0 auto;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px;
+    padding: 10px;
+    width: 100%; 
+    background-color: #f1e4ff; 
+    border-radius: 8px; 
+  }
+  
+  /* Style for each answer option */
+  .options-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .option-label {
+    margin: 5px 0;
+  }
+  
+  .question-container label {
+    display: flex; /* Use flex to align items properly */
+    align-items: center; /* Center items vertically */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 17px; /* Font size for readability */
+    color: #29024b;
+  }
+  
+  /* Style for radio button inputs */
+  .question-container input[type="radio"] {
+    align-self: center;
+    appearance: none; /* Remove default radio button styling */
+    background-color: #fff; /* White background for the radio button */
+    border: 2px solid #cc92f5; /* Blue border for the radio button */
+    border-radius: 50%; /* Make it a circle */
+    width: 20px; /* Size of the radio button */
+    height: 20px; /* Size of the radio button */
+    margin-right: 10px; /* Space between the radio button and label text */
+    cursor: pointer; /* Pointer cursor on hover */
+    vertical-align: middle; /* Aligns the button with the text */
+    position: relative; /* Position for the pseudo-element */
+  }
+  
+  /* Style for the checked radio button */
+  .question-container input[type="radio"]:checked {
+    background-color: #e3caff; /* Blue background for selected radio button */
+    border: 1px solid #cc92f5; /* Matching border color */
+  }
+  
+  /* Inner dot of the checked radio button */
+  .question-container input[type="radio"]:checked::after {
+    content: ""; /* Required to create the dot */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 10px; /* Size of the dot */
+    height: 10px; /* Size of the dot */
+    background-color: #30ffac; /* Dot color */
+    border-radius: 50%; /* Make the dot a circle */
+    transform: translate(-50%, -50%); /* Center the dot */
+  }
+  
+  /* Timer Display */
+  .timer-display {
+    position: absolute;
+    margin-bottom: 10px;
+    font-weight: bold;
+    top: 10px;
+    right: 10px;
+    font-size: 1em;
+    color: #ffffff;
+    background: rgba(255, 255, 255, 0.293); 
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-family: 'Minecraftia', sans-serif; 
+  }
+  
+  /* Navigation Buttons */
+  .navigation-buttons {
+    display: flex; /* Use flex to align buttons properly */
+    justify-content: center; /* Center buttons horizontally */
+    margin-top: 20px;
+  }
+  
+  .navigation-buttons button {
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 2em;
+    cursor: pointer;
+    background: #78ff09;
+    font-family: 'Minecraftia', sans-serif;
+    color: #636363;
+  }
+  
+  .navigation-buttons .prev-button {
+    font-size: 2em; /* Adjust size if needed */
+  }
+  
+  .navigation-buttons .next-button {
+    font-size: 2em; /* Adjust size if needed */
+  }
+  

@@ -22,6 +22,8 @@ const SubscriptionManager = ({ onLoginSuccess }) => {
         setUserEmail('');
     };
 
+
+    
     return (
         <div>
             {popupStage === 'email' && (

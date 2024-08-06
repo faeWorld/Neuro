@@ -1,11 +1,15 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom'; 
+import CodeValidationComponent from '../components/codevalidation';
 import SubscriptionManager from '../components/subscriptionmanager';
+
 import './home.css'; // Import CSS file for styling
 
 const Home = () => {
   const navigate = useNavigate();
   const [showPopup, setShowPopup] = useState(true);
+  const [userEmail, setUserEmail] = useState('');
+  const [popupStage, setPopupStage] = useState('email');
   const [error, setError] = useState(''); // Manage error messages
 
   useEffect(() => {
@@ -39,10 +43,25 @@ const Home = () => {
   const handleButtonClick = () => {
     navigate('/knowledge');
   };
+  const handleGoBack = () => {
+    setPopupStage('email');
+    setUserEmail('');
+  };
+
+  
+
+  
 
   return (
     <div className="home">
-        {showPopup && (
+      {showPopup && popupStage === 'code' && (
+        <CodeValidationComponent
+          email={userEmail} 
+          onCodeValidationSuccess={handleLoginSuccess} 
+          onGoBack={handleGoBack} 
+        />
+      )}
+      {showPopup && popupStage === 'email' && (
         <div className="subscription-popup">
           <div className="subscription-popup-content">
             <SubscriptionManager onLoginSuccess={handleLoginSuccess} />
@@ -65,3 +84,11 @@ const Home = () => {
 };
 
 export default Home;
+
+/*    {showPopup && (
+        <div className="subscription-popup">
+          <div className="subscription-popup-content">
+            <SubscriptionManager onLoginSuccess={handleLoginSuccess} />
+          </div>
+        </div>
+      )} */

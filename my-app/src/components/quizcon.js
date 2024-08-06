@@ -1,18 +1,19 @@
-import React, { useState, useEffect } from 'react';
-//import './quizcontainer.css';
-import './quizcon.css'
+import React, { useState, useEffect, useRef } from 'react';
+import './quizcon.css'; // Ensure the correct CSS file is used
 
 import Quiz from './quiz'; // Import the Quiz component
 
-const QuizContainer = () => {
+const QuizCon = () => {
   const [questions, setQuestions] = useState([]);
   const [currentPage, setCurrentPage] = useState(0);
   const [selectedAnswers, setSelectedAnswers] = useState({});
   const [score, setScore] = useState(null);
   const [timer, setTimer] = useState(30); // Timer for each question
   const [loading, setLoading] = useState(true); // State to track loading
+  const [questionAnswered, setQuestionAnswered] = useState(false); // Track if a question has been answered
+  const [isQuestionVisible, setIsQuestionVisible] = useState(false);
 
-  // Number of questions to be displayed in the quiz
+  const timerRef = useRef(null);
   const totalQuestions = 10;
 
   // Shuffle function
@@ -25,74 +26,79 @@ const QuizContainer = () => {
   };
 
   useEffect(() => {
-    let interval;
-    if (timer > 0) {
-      interval = setInterval(() => {
-        setTimer(prev => prev - 1);
-      }, 1000);
-      if (timer === 0 && currentPage < totalQuestions - 1) {
-        handleNextPage();
-      }
+    if (loading) return; // Skip timer setup if loading
 
-      return () => clearInterval(interval);
+    // Clear previous interval if it exists
+    if (timerRef.current) {
+      clearInterval(timerRef.current);
     }
-  }, [timer, loading, currentPage]);
 
+    // Set up new interval
+    timerRef.current = setInterval(() => {
+      setTimer(prev => {
+        if (prev <= 1) {
+          clearInterval(timerRef.current); // Clear interval when timer hits 0
+          if (!questionAnswered) {
+            handleNextPage(); // Move to next question if not answered
+          }
+          return 30; // Reset timer for the next question
+        }
+        return prev - 1;
+      });
+    }, 1000);
+
+    return () => clearInterval(timerRef.current); // Cleanup interval on unmount
+  }, [loading, currentPage, questionAnswered]); // Depend on questionAnswered to handle transitions
 
   useEffect(() => {
     if (currentPage >= totalQuestions) {
-      handleSubmit(); 
+      handleSubmit();
     }
   }, [currentPage]);
-// Automatically submit the quiz after the 10th question--------------------------------------------------
+
+  useEffect(() => {
+    if (!loading) {
+      // Start timer and make question visible when questions are fetched
+      setTimer(30);
+      setQuestionAnswered(false); // Reset the question answered state
+      setIsQuestionVisible(true);
+    }
+  }, [loading, currentPage]);
 
   const handleQuestionsFetched = (fetchedQuestions) => {
     const shuffledQuestions = shuffleArray(fetchedQuestions).slice(0, totalQuestions);
     setQuestions(shuffledQuestions);
-    setLoading(false); 
-    setTimer(30);
+    setLoading(false);
   };
-// it is using the defined shufflearay funtion on the fetched questions 
-//and slicing from 0 the beggining till count of total questions.
-//Set loading to false once questions are fetched and timer is set to 30 for the first question and forward
-
-
-
-  const questionsPerPage = 1; 
-  const startIndex = currentPage * questionsPerPage;
-  const endIndex = startIndex + questionsPerPage;
-  const currentQuestions = questions.slice(startIndex, endIndex);
-  // Show one question at a time and able to easily navigate through next and previous questionpage.
-
-
 
   const handleAnswerChange = (questionId, answer) => {
-    setSelectedAnswers({
-      ...selectedAnswers,
-      [questionId]: answer
-    });
+    if (selectedAnswers[questionId] === undefined) {
+      // Only allow answer selection if not already answered
+      setSelectedAnswers({
+        ...selectedAnswers,
+        [questionId]: answer
+      });
+      setQuestionAnswered(true); // Mark question as answered
+    }
   };
-  //able to handle answers once selected for to counting the score
-
-
-
 
   const handleNextPage = () => {
     if ((currentPage + 1) < totalQuestions) {
       setCurrentPage(currentPage + 1);
+      setIsQuestionVisible(false); // Hide question before moving to the next
+      setQuestionAnswered(false); // Reset the question answered state
       setTimer(30); // Reset timer for each new question
     }
   };
-  //futher definin the next page transition into a function to use ahead.
 
   const handlePrevPage = () => {
     if (currentPage > 0) {
       setCurrentPage(currentPage - 1);
+      setIsQuestionVisible(false); // Hide question before moving to the previous
+      setQuestionAnswered(false); // Reset the question answered state
       setTimer(30); // Reset timer for each new question
     }
   };
-  //futher definin the previous page transition into a function to use ahead.
-
 
   const handleSubmit = () => {
     let newScore = 0;
@@ -104,7 +110,6 @@ const QuizContainer = () => {
     setScore(newScore);
     setTimer(0); // Stop the timer
   };
-  //this will submit the quiz and calculate the score of the quiz.
 
   const handleRefresh = () => {
     setQuestions([]);
@@ -112,18 +117,19 @@ const QuizContainer = () => {
     setSelectedAnswers({});
     setScore(null);
     setTimer(30);
-    setLoading(true); //to show loader
-    // Optionally, fetch new questions hereFor example, call a function to fetch questions again
-  
+    setLoading(true); // to show loader
+    // Optionally, fetch new questions here
   };
-  //it will re-load the quiz if the user wants to do it again once clicked upon.
 
-
+  const questionsPerPage = 1;
+  const startIndex = currentPage * questionsPerPage;
+  const endIndex = startIndex + questionsPerPage;
+  const currentQuestions = questions.slice(startIndex, endIndex);
 
   return (
     <div className="knowledge-test">
       <Quiz onQuestionsFetched={handleQuestionsFetched} /> {/* Fetch questions */}
-  
+
       {/* Loader Display */}
       {loading && (
         <div className="loader"></div>
@@ -147,7 +153,7 @@ const QuizContainer = () => {
 
       <div className="book-container">
         {/* Question Display */}
-        {!loading && currentQuestions.map((q, index) => (
+        {!loading && isQuestionVisible && currentQuestions.map((q, index) => (
           <div key={index} className="question-container">
             <p>{q.question}</p>
             <div className="options-container">
@@ -184,12 +190,14 @@ const QuizContainer = () => {
           )}
         </div>
       </div>
-     
     </div>
   );
 };
 
-export default QuizContainer;
+export default QuizCon;
+
+
+
 
 
 

@@ -13,8 +13,9 @@ const Question = require('./models/Questions');
 const Code = require('./models/code'); 
 
 const app = express();
+const PORT = process.env.PORT || 3000; 
+
 app.use(bodyParser.json());
-const PORT = process.env.PORT || 3002; 
 app.use(bodyParser.urlencoded({ extended: true }));
 
 
@@ -121,8 +122,7 @@ app.post('/submit-test', async (req, res) => {
 
 mongoose.connect(process.env.MONGO_URI, {
   useNewUrlParser: true,
-  useCreateIndex: true,  // Optional: ensures indexes are created correctly
-  useFindAndModify: false // Optional: avoids deprecation warnings related to `findAndModify`
+  useUnifiedTopology: true
 })
   .then(() => console.log('MongoDB connected...'))
   .catch(err => console.error('MongoDB connection error:', err));

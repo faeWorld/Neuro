@@ -1,6 +1,6 @@
 import React, { useState, useEffect, createContext, useContext } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Navbar from './components/Navbar';
+import Navbar from './components/navbar';
 import SubscriptionManager from './components/subscriptionmanager';
 import Home from './pages/home';
 import KnowledgeTest from './pages/knowledge';
@@ -35,10 +35,6 @@ const App = () => {
       <UserContext.Provider value={{ userEmail, isLoggedIn }}>
         <div className="App">
           <Navbar />
-          {showSubscriptionManager && (
-             <SubscriptionManager onLoginSuccess={handleLoginSuccess} />
-            )}
-
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/knowledge"  element={<KnowledgeTest />} />
