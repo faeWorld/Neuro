@@ -6,6 +6,7 @@ const KnowledgeTest = () => {
   return (
     <div className="knowledge">
       <h1>Quiz bit</h1>
+      
       <QuizCon /> {/* Display the QuizContainer component */}
     </div>
   );

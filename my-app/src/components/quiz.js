@@ -1,9 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-//import './quiz.css'; // Import CSS file for styling
 
 const Quiz = ({ onQuestionsFetched }) => {
-  const [questions, setQuestions] = useState([]);
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(true);
 
@@ -11,24 +9,44 @@ const Quiz = ({ onQuestionsFetched }) => {
     const fetchQuestions = async () => {
       try {
         const response = await axios.get('/api/questions');
-        setQuestions(response.data);
-        setLoading(false);
+        const questions = response.data;
+        
+        // Shuffle questions immediately without delay
+        const shuffledQuestions = shuffleArray(questions);
         if (onQuestionsFetched) {
-          onQuestionsFetched(response.data); // Pass questions to parent component
+          console.log('Calling onQuestionsFetched callback with:', shuffledQuestions);
+          onQuestionsFetched(shuffledQuestions);
         }
+        setLoading(false);
       } catch (err) {
         setError('Error fetching questions.');
         setLoading(false);
       }
     };
+
     fetchQuestions();
-  }, [onQuestionsFetched]);
+  }, [onQuestionsFetched],[]);
 
-  if (loading) return <div>Loading...</div>;
-  if (error) return <div>{error}</div>;
+  // Shuffle function
+  const shuffleArray = (array) => {
+    for (let i = array.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
+  };
 
-  return null; // No rendering needed here, just fetching data
+  // Render loading and error states
+  if (loading) {
+    return <div className="loader"> </div>;
+  }
+
+  if (error) {
+    return <div className="error">{error}</div>;
+  }
+
+  return null; // No rendering for the Quiz component itself
 };
 
 export default Quiz;
-// fetch questions and display them is its job!
+

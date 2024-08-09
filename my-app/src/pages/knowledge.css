@@ -10,7 +10,28 @@
   0% { background-position: 0 0; }
   100% { background-position: 100% 100%; }
 }
+/* quizcontainer.css */
 
+/* Loader styles */
+.loader {
+  border: 16px solid #2bffb5; 
+  border-top: 16px solid #8800fffa; 
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  animation: spin 2s linear infinite;
+  position: absolute; 
+  top: 50%;
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  z-index: 20;
+}
+
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
 
 
 .knowledge {
@@ -18,7 +39,7 @@
     max-width: 800px;
     margin: 0 auto;
     background-color: none;
-    text-align: center;
+    text-align:justify;
   /*position: absolute; /* Ensure the ::before pseudo-element can be used */
   /*min-height: 100vh; /* Ensure .home takes up at least the full viewport height */
 }
